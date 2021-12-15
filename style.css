@@ -516,4 +516,10 @@ a:link {
   .main-explore-right p {
     font-size: 18px;
   }
+
+  .main-explore-right,
+  .main-explore-middle-right {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
