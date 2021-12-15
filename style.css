@@ -469,3 +469,51 @@ a:link {
 }
 
 /* END exhibitions page */
+
+/* Responsive EXPLORE and GET INVOLVED */
+
+@media (max-width: 880px) {
+  .main-explore-middle-left,
+  .main-explore-middle-left img,
+  .main-explore-left,
+  .main-explore-left img,
+  .main-explore-right,
+  .main-explore-middle-right {
+    width: 30rem;
+  }
+
+  .main-explore-middle-right p {
+    font-size: 18px;
+  }
+
+  .main-explore-left {
+    margin: 80px;
+  }
+
+  .main-explore-right p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+  .main-explore-middle-left,
+  .main-explore-middle-left img,
+  .main-explore-left,
+  .main-explore-left img,
+  .main-explore-right,
+  .main-explore-middle-right {
+    width: 20rem;
+  }
+
+  .main-explore-middle-right p {
+    font-size: 18px;
+  }
+
+  .main-explore-left {
+    margin: 80px;
+  }
+
+  .main-explore-right p {
+    font-size: 18px;
+  }
+}
