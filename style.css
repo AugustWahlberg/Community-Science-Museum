@@ -506,7 +506,7 @@ a:link {
   }
 
   .main-explore-middle-right p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .main-explore-left {
@@ -514,12 +514,16 @@ a:link {
   }
 
   .main-explore-right p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .main-explore-right,
   .main-explore-middle-right {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .main-explore-middle-right h2 {
+    font-size: 21px;
   }
 }
