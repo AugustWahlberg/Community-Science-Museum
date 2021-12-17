@@ -3,8 +3,10 @@
   scroll-behavior: smooth;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Montserrat",
+    sans-serif;
+  font-family: "Quicksand",
+    sans-serif;
 }
 
 body {
@@ -67,7 +69,13 @@ footer {
 }
 
 .line {
-  border: 1px solid rgba(31, 9, 36, 0.4);
+  border: 1px solid
+    rgba(
+      31,
+      9,
+      36,
+      0.4
+    );
   margin-bottom: 20px;
   width: 80vw;
   justify-content: center;
@@ -115,19 +123,33 @@ footer {
 /* Start styling home page */
 
 .main1 {
-  min-height: 100vh;
+  min-height: auto;
   background-color: #1f0924;
   padding-top: 160px;
-  color: rgba(206, 194, 209, 0.9);
+  color: rgba(
+    206,
+    194,
+    209,
+    0.9
+  );
   height: auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 60px;
 }
 .main1 h1 {
-  color: rgba(239, 203, 127, 0.85);
-  font-family: "Montserrat", sans-serif;
+  color: rgba(
+    239,
+    203,
+    127,
+    0.85
+  );
+  font-family: "Montserrat",
+    sans-serif;
   font-weight: 900;
   font-size: 40px;
 }
@@ -139,7 +161,7 @@ footer {
 }
 .main1-left p {
   padding-top: 20px;
-  font-size: 18.5px;
+  font-size: 19px;
 }
 
 .main1-right {
@@ -147,34 +169,51 @@ footer {
   margin-left: 40px;
   margin-right: 40px;
   order: 2;
+  text-align: center;
 }
 
 .main1-right img {
-  width: 50rem;
+  height: 700px;
+  text-align: center;
 }
 
 .main1-btn {
   display: block;
   border: none;
   padding: 16px 30px;
-  border-radius: 0px 30px;
+  border-radius: 0px
+    30px;
   color: #1a212e;
   cursor: pointer;
-  transition: all 0.3s linear;
+  transition: all
+    0.3s linear;
   position: relative;
-  background-color: rgba(0, 149, 142, 0.8);
+  background-color: rgba(
+    0,
+    149,
+    142,
+    0.8
+  );
   margin-top: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat",
+    sans-serif;
   font-weight: 800;
   font-size: 26px;
   width: 260px;
   margin-bottom: 40px;
-  margin-left: 33%;
+  margin-left: calc(
+    50% - 116.5px
+  );
 }
 
 .main1-btn:hover,
 .main1-btn:focus {
-  background-color: rgba(0, 149, 142, 1);
+  background-color: rgba(
+    0,
+    149,
+    142,
+    1
+  );
 }
 
 a:link {
@@ -184,11 +223,16 @@ a:link {
 /* End styling main1 */
 
 .main2 {
-  min-height: 100vh;
+  min-height: auto;
   background-color: #57465b;
   padding-top: 160px;
-  color: rgba(206, 194, 209, 0.9);
-  padding-bottom: 40px;
+  color: rgba(
+    206,
+    194,
+    209,
+    0.9
+  );
+  padding-bottom: 60px;
 }
 
 .main2-content {
@@ -199,59 +243,89 @@ a:link {
   justify-content: center;
 }
 .main2 h2 {
-  color: rgba(239, 203, 127, 0.9);
-  font-family: "Montserrat", sans-serif;
+  color: rgba(
+    239,
+    203,
+    127,
+    0.9
+  );
+  font-family: "Montserrat",
+    sans-serif;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 32px;
   position: absolute;
 }
 
 .main2-box {
-  width: 300px;
+  width: 350px;
   margin: 85px;
   margin-top: 100px;
 }
 .main2-box img {
-  width: 300px;
+  width: 350px;
   height: 300px;
   object-fit: cover;
-  border-radius: 0px 30px;
+  border-radius: 0px
+    30px;
 }
 .main2-box h3 {
   padding-top: 19px;
   padding-bottom: 5px;
+  font-size: 21px;
+}
+.main2 p {
+  font-size: 19px;
 }
 
 .main2-btn {
   border: none;
   padding: 16px 30px;
-  border-radius: 0px 30px;
+  border-radius: 0px
+    30px;
   color: #1a212e;
   cursor: pointer;
-  transition: all 0.3s linear;
+  transition: all
+    0.3s linear;
   position: relative;
-  background-color: rgba(0, 149, 142, 0.8);
-  margin-top: 50px;
-  font-family: "Montserrat", sans-serif;
+  background-color: rgba(
+    0,
+    149,
+    142,
+    0.8
+  );
+  margin-top: 10px;
+  font-family: "Montserrat",
+    sans-serif;
   font-weight: 800;
   font-size: 20px;
   width: 200px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: calc(
+    50% - 100px
+  );
 }
 
 .main2-btn:hover,
 .main2-btn:focus {
-  background-color: rgba(0, 149, 142, 1);
+  background-color: rgba(
+    0,
+    149,
+    142,
+    1
+  );
 }
 
 /* End styling main2 */
 .main3 {
-  min-height: 100vh;
+  min-height: auto;
   background-color: #1f0924;
   padding-top: 160px;
-  color: rgba(206, 194, 209, 0.9);
+  color: rgba(
+    206,
+    194,
+    209,
+    0.9
+  );
   height: auto;
   max-width: 100%;
   display: grid;
@@ -263,6 +337,8 @@ a:link {
   /*background-color: rgba(206, 194, 209, 0.2);*/
   margin: 0 auto;
   position: relative;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .main3 img {
@@ -270,10 +346,16 @@ a:link {
 }
 
 .main3 h2 {
-  color: rgba(239, 203, 127, 0.85);
-  font-family: "Montserrat", sans-serif;
+  color: rgba(
+    239,
+    203,
+    127,
+    0.85
+  );
+  font-family: "Montserrat",
+    sans-serif;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 32px;
 }
 .main3 h3 {
   font-weight: bolder;
@@ -327,7 +409,12 @@ a:link {
 .main-explore {
   background-color: #1f0924;
   padding-top: 160px;
-  color: rgba(206, 194, 209, 0.9);
+  color: rgba(
+    206,
+    194,
+    209,
+    0.9
+  );
   height: auto;
   width: 100%;
   display: flex;
@@ -340,7 +427,12 @@ a:link {
 .main-explore-middle {
   background-color: #57465b;
   padding-top: 160px;
-  color: rgba(206, 194, 209, 1);
+  color: rgba(
+    206,
+    194,
+    209,
+    1
+  );
   height: auto;
   width: 100%;
   display: flex;
@@ -360,12 +452,19 @@ a:link {
   display: grid;
 }
 
-.main-explore-middle-right p {
+.main-explore-middle-right
+  p {
   font-size: 20px;
 }
 
-.main-explore-middle-right h2 {
-  color: rgba(239, 203, 127, 1);
+.main-explore-middle-right
+  h2 {
+  color: rgba(
+    239,
+    203,
+    127,
+    1
+  );
   padding-bottom: 10px;
   font-size: 24px;
 }
@@ -375,25 +474,30 @@ a:link {
   margin: 80px;
 }
 
-.main-explore-middle-left img {
+.main-explore-middle-left
+  img {
   width: 40rem;
   object-fit: cover;
-  border-radius: 0px 30px;
+  border-radius: 0px
+    30px;
 }
 
 .main-explore-left {
   width: 40rem;
   margin: 80px;
 }
-.main-explore-left p {
+.main-explore-left
+  p {
   padding-top: 20px;
   font-size: 18.5px;
 }
 
-.main-explore-left img {
+.main-explore-left
+  img {
   width: 40rem;
   object-fit: cover;
-  border-radius: 0px 30px;
+  border-radius: 0px
+    30px;
 }
 
 .main-explore-right {
@@ -405,13 +509,20 @@ a:link {
   display: grid;
 }
 
-.main-explore-right p {
+.main-explore-right
+  p {
   font-size: 20px;
 }
 
-.main-explore-right h2 {
+.main-explore-right
+  h2 {
   font-size: 24px;
-  color: rgba(239, 203, 127, 0.85);
+  color: rgba(
+    239,
+    203,
+    127,
+    0.85
+  );
   padding-bottom: 10px;
 }
 
@@ -419,32 +530,58 @@ a:link {
 
 /* START Exhibitions page */
 
+.exhibitions {
+  height: auto;
+  margin-top: 200px;
+}
+
 .main-exhibitions {
-  background-color: #1f0924;
   color: #1f0924;
+  color: rgba(
+    206,
+    194,
+    209,
+    0.9
+  );
   height: auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 30px;
-  margin-top: 200px;
   margin-bottom: 200px;
 }
 
 .main-exhibitions-right {
-  width: 40rem;
+  width: 47rem;
   margin-left: 40px;
   margin-right: 40px;
   order: 2;
-  align-items: flex-end;
   display: grid;
-  background-color: rgba(208, 194, 210, 0.6);
-  padding: 30px;
+  text-align: center;
+  margin-top: 30px;
+  min-width: 280px;
+}
+
+.content-exhibitions {
+  border: 2px solid
+    rgba(
+      206,
+      194,
+      209,
+      1
+    );
+  background-color: rgba(
+    206,
+    194,
+    209,
+    0.1
+  );
   border-radius: 30px;
-  border: 2px solid rgba(206, 194, 209, 0.9);
-  height: 350px;
-  margin-top: 110px;
+  padding: 24px 24px;
+  margin-top: 20px;
+  text-align: left;
+  height: auto;
 }
 
 .main-exhibitions-left {
@@ -453,19 +590,27 @@ a:link {
   margin-right: 80px;
 }
 
-.main-exhibitions-left img {
+.main-exhibitions-left
+  img {
   width: 20rem;
   object-fit: cover;
+  padding: 10px;
 }
 
-.main-exhibitions-right p {
-  padding-top: 10px;
+.main-exhibitions-right
+  p {
   font-size: 22px;
 }
 
-.main-exhibitions-right h2 {
+.main-exhibitions-right
+  h2 {
   font-size: 30px;
-  color: rgba(239, 203, 127, 1);
+  color: rgba(
+    239,
+    203,
+    127,
+    1
+  );
 }
 
 /* END exhibitions page */
@@ -474,15 +619,18 @@ a:link {
 
 @media (max-width: 880px) {
   .main-explore-middle-left,
-  .main-explore-middle-left img,
+  .main-explore-middle-left
+    img,
   .main-explore-left,
-  .main-explore-left img,
+  .main-explore-left
+    img,
   .main-explore-right,
   .main-explore-middle-right {
-    width: 30rem;
+    width: 32rem;
   }
 
-  .main-explore-middle-right p {
+  .main-explore-middle-right
+    p {
     font-size: 18px;
   }
 
@@ -490,22 +638,94 @@ a:link {
     margin: 80px;
   }
 
-  .main-explore-right p {
+  .main-explore-right
+    p {
     font-size: 18px;
+  }
+
+  .main-explore-middle-left,
+  .main-explore-left {
+    margin-bottom: 40px;
+  }
+
+  .main-explore-middle {
+    padding-top: 0px;
+  }
+
+  .main-explore {
+    margin-top: 0px;
+  }
+
+  .main-explore h1 {
+    font-family: "Montserrat",
+      sans-serif;
+    margin-top: 80px;
+    color: rgba(
+      239,
+      203,
+      127,
+      0.85
+    );
+    font-size: 40px;
+  }
+
+  .main-exhibitions
+    h1 {
+    width: 100%;
+    font-family: "Montserrat",
+      sans-serif;
+    margin-top: 80px;
+    color: rgba(
+      239,
+      203,
+      127,
+      0.85
+    );
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  /* Responsive Exhibitions */
+
+  .main-exhibitions-right
+    p {
+    font-size: 18px;
+  }
+  .main-exhibitions-right
+    h2 {
+    font-size: 26px;
+  }
+
+  .exhibitions {
+    margin-top: 30px;
+  }
+
+  /* Responsive homepage */
+
+  .main1-right {
+    width: 100vw;
+  }
+
+  .main1-right img {
+    height: 30em;
   }
 }
 
 @media (max-width: 600px) and (min-width: 300px) {
   .main-explore-middle-left,
-  .main-explore-middle-left img,
+  .main-explore-middle-left
+    img,
   .main-explore-left,
-  .main-explore-left img,
+  .main-explore-left
+    img,
   .main-explore-right,
   .main-explore-middle-right {
     width: 20rem;
   }
 
-  .main-explore-middle-right p {
+  .main-explore-middle-right
+    p {
     font-size: 16px;
   }
 
@@ -513,7 +733,8 @@ a:link {
     margin: 80px;
   }
 
-  .main-explore-right p {
+  .main-explore-right
+    p {
     font-size: 16px;
   }
 
@@ -523,7 +744,207 @@ a:link {
     margin-right: 10px;
   }
 
-  .main-explore-middle-right h2 {
-    font-size: 21px;
+  .main-explore-middle-right
+    h2,
+  .main-explore-right
+    h2 {
+    font-size: 18px;
   }
+
+  .main-explore-middle-left,
+  .main-explore-left {
+    margin-bottom: 30px;
+  }
+
+  .main-explore-middle {
+    padding-top: 0px;
+  }
+
+  .main-explore {
+    margin-top: 0px;
+  }
+
+  .main-explore {
+    font-size: 16px;
+  }
+
+  .main-explore h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 880px) {
+  .main-explore h1,
+  .main-exhibitions
+    h1 {
+    display: none;
+    margin-top: 80px;
+    color: rgba(
+      239,
+      203,
+      127,
+      0.85
+    );
+    font-size: 50px;
+  }
+
+  .main-exhibitions-right {
+    max-height: 200px;
+  }
+}
+
+/* Responsive homepage */
+
+@media (max-width: 1510px) {
+  .main1-left {
+    width: 660px;
+    margin: 90px;
+    margin-top: 100px;
+    order: 2;
+    min-width: 300px;
+  }
+
+  .main1-right {
+    order: 1;
+  }
+
+  .main1 h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 0px;
+  }
+  .main1-left {
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px
+      solid
+      rgba(
+        206,
+        194,
+        209,
+        0.3
+      );
+  }
+}
+
+@media (max-width: 880px) and (min-width: 650px) {
+  .main1 h1 {
+    font-size: 38px;
+  }
+  .main1 p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 660px) and (min-width: 300px) {
+  .main1 h1 {
+    font-size: 30px;
+    text-align: left;
+  }
+  .main1 p {
+    font-size: 18px;
+  }
+  .main1-right {
+    width: 100vw;
+  }
+
+  .main1 h1 {
+    font-size: 26px;
+  }
+}
+
+/* Responsive main3 */
+
+@media (max-width: 1200px) {
+  .main3 {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .main3-box-1,
+  .main3-box-2,
+  .main3-box-3,
+  .main3-box-4,
+  .main3-box-5,
+  .main3-box-6,
+  .main3-box-7 {
+    margin: 0;
+    width: 100em;
+  }
+}
+
+@media (max-width: 660px) and (min-width: 550px) {
+  .main1-right img {
+    height: 26em;
+  }
+}
+
+@media (max-width: 550px) and (min-width: 450px) {
+  .main1-right img {
+    height: 22em;
+  }
+}
+
+@media (max-width: 450px) and (min-width: 300px) {
+  .main1-right img {
+    height: 18em;
+  }
+}
+
+/* Booking */
+
+.main1-booking {
+  color: #cec2d1;
+  margin-top: 80px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 200px;
+}
+
+.main1-booking h2 {
+  width: 100%;
+  font-family: "Montserrat",
+    sans-serif;
+  margin-top: 80px;
+  color: rgba(
+    239,
+    203,
+    127,
+    0.85
+  );
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.main-booking-left {
+  width: 25em;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid
+    rgba(
+      206,
+      194,
+      209,
+      1
+    );
+}
+
+.booking-paragraf {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.main-booking-right {
+  width: 25em;
+  text-align: center;
+}
+
+.main-booking-right
+  img {
+  width: 15em;
 }
