@@ -3,39 +3,211 @@
   scroll-behavior: smooth;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat",
-    sans-serif;
-  font-family: "Quicksand",
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: #1f0924;
 }
 main {
   flex-grow: 1;
   background-color: #f7f8f9;
+}
+
+/* Repetetive */
+
+body,
+main,
+.main3,
+.main-explore,
+input[type="text"] {
   background-color: #1f0924;
 }
 
-/* Styling footer */
-
-footer {
-  height: auto;
-  background-color: #7d7794;
-  padding-bottom: 30px;
+.some-icons,
+.main1-right,
+.main1-right img,
+.main3-box-1,
+.main3-box-2,
+.main3-box-3,
+.main3-box-4,
+.main3-box-5,
+.main3-box-6,
+.main3-box-7,
+.main-exhibitions-right,
+.main-booking-right,
+.main1-booking h2,
+.main2-booking h2,
+.main-booking-right,
+.personal-info,
+.main2-booking-box,
+.main2-booking-box-middle,
+.bottom-text-footer {
+  text-align: center;
 }
 
-.footer {
-  height: auto;
-  width: 100%;
+.footer,
+.main1,
+.main2-content,
+.main-explore,
+.main-explore-middle,
+.main-exhibitions,
+.main1-booking,
+.main2-booking {
   display: flex;
-  background-color: #7d7794;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+footer,
+.footer,
+.right-footer,
+.left-footer,
+.main1,
+.main2,
+.main2-content,
+.main3,
+.main-explore,
+.main-explore-middle,
+.exhibitions,
+.main-exhibitions,
+.content-exhibitions,
+.main1-booking,
+.main-booking-left,
+.booking-ex-ilu i,
+.main2-booking {
+  height: auto;
+}
+
+.right-footer,
+.left-footer,
+.some-icons i,
+.contact-content i,
+.main2-booking-box,
+.main2-booking-box-middle,
+.main2-booking label {
+  color: #1f0924;
+}
+
+.line,
+.main3-box-1,
+.main3 {
+  margin: 0 auto;
+}
+
+.line,
+.main3,
+label {
+  justify-content: center;
+}
+
+.main1,
+.main2,
+.main3,
+.main-explore,
+.main-exhibitions {
+  color: rgba(206, 194, 209, 0.9);
+}
+
+.right-footer,
+.left-footer,
+.main-explore,
+.main-explore-middle,
+.main-exhibitions,
+.main1-booking {
+  padding: 30px;
+}
+
+.footer,
+.main2-content,
+.main-explore,
+.main-explore-middle,
+.main-exhibitions,
+.main1-booking,
+.main1-booking h2,
+.main2-booking h2 {
+  width: 100%;
+}
+
+.line,
+.main1-btn,
+.main2-btn,
+label {
+  display: block;
+}
+
+.main1 h1,
+.main3 h2,
+.main-explore-right h2,
+.main1-booking h2,
+.main2-booking h2 {
+  color: rgba(239, 203, 127, 0.85);
+}
+
+.main1 h1,
+.main1-btn,
+.main2 h2,
+.main2-btn,
+.main3 h2,
+.main1-booking h2,
+.main2-booking h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main1-btn,
+.main2-btn,
+.main2-box img,
+.main-explore-middle-left img,
+.main-explore-left img {
+  border-radius: 0px 30px;
+}
+
+.main2,
+.main-explore-middle,
+.main2-booking {
+  background-color: #57465b;
+}
+
+.main2-box img,
+.main-explore-middle-left img,
+.main-explore-left img,
+.main-exhibitions-left img,
+.main2-booking img {
+  object-fit: cover;
+}
+
+.main-booking-left,
+textarea,
+.main2-booking-box,
+.main2-booking-box-middle {
+  border-radius: 20px;
+}
+
+.main1-booking,
+.personal-info,
+input[type="text"],
+label,
+.personal-info p,
+textarea,
+.main2-booking select,
+.main-explore-middle {
+  color: #cec2d1;
+}
+
+/* End Repetetive */
+
+/* Styling footer */
+footer,
+.footer,
+.footer-bottom-text {
+  background-color: #7d7794;
+}
+
+footer {
+  padding-bottom: 30px;
 }
 
 .footer h4 {
@@ -45,9 +217,6 @@ footer {
 
 .right-footer,
 .left-footer {
-  color: #1f0924;
-  padding: 30px;
-  height: auto;
   margin: 5px;
 }
 .left-footer {
@@ -69,43 +238,20 @@ footer {
 }
 
 .line {
-  border: 1px solid
-    rgba(
-      31,
-      9,
-      36,
-      0.4
-    );
+  border: 1px solid rgba(31, 9, 36, 0.4);
   margin-bottom: 20px;
   width: 80vw;
-  justify-content: center;
-  margin: 0 auto;
-  display: block;
 }
 
 .some-icons {
-  text-align: center;
   margin-top: 20px;
 }
 
 .some-icons i {
   padding: 8px;
-  color: #1f0924;
   font-size: 22px;
 }
 
-.footer-bottom-text {
-  background-color: #7d7794;
-}
-
-.bottom-text-footer {
-  text-align: center;
-}
-
-.contact-content {
-  display: inline-flex;
-  padding: 5px;
-}
 .contact-content {
   display: inline-flex;
   padding: 5px;
@@ -114,50 +260,23 @@ footer {
 .contact-content p {
   margin-left: 10px;
 }
-.contact-content i {
-  color: #1f0924;
-}
 
 /* End styling footer */
 
 /* Start styling home page */
 
 .main1 {
-  min-height: auto;
-  background-color: #1f0924;
-  padding-top: 160px;
-  color: rgba(
-    206,
-    194,
-    209,
-    0.9
-  );
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 160px 30px 0px 30px;
   margin-bottom: 60px;
 }
 .main1 h1 {
-  color: rgba(
-    239,
-    203,
-    127,
-    0.85
-  );
-  font-family: "Montserrat",
-    sans-serif;
   font-weight: 900;
   font-size: 40px;
 }
 
 .main1-left {
   width: 370px;
-  margin: 90px;
-  margin-top: 150px;
+  margin: 150px 90px 90px 90px;
 }
 .main1-left p {
   padding-top: 20px;
@@ -166,54 +285,38 @@ footer {
 
 .main1-right {
   width: 50rem;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 0px 40px;
   order: 2;
-  text-align: center;
 }
 
 .main1-right img {
   height: 700px;
-  text-align: center;
+}
+
+.main1-btn,
+.main2-btn {
+  border: none;
+  padding: 16px 30px;
+  color: #1a212e;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  position: relative;
+  background-color: rgba(0, 149, 142, 0.8);
+  font-weight: 800;
 }
 
 .main1-btn {
-  display: block;
-  border: none;
-  padding: 16px 30px;
-  border-radius: 0px
-    30px;
-  color: #1a212e;
-  cursor: pointer;
-  transition: all
-    0.3s linear;
-  position: relative;
-  background-color: rgba(
-    0,
-    149,
-    142,
-    0.8
-  );
   margin-top: 50px;
-  font-family: "Montserrat",
-    sans-serif;
-  font-weight: 800;
   font-size: 26px;
   width: 260px;
   margin-bottom: 40px;
-  margin-left: calc(
-    50% - 116.5px
-  );
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main1-btn:hover,
 .main1-btn:focus {
-  background-color: rgba(
-    0,
-    149,
-    142,
-    1
-  );
+  background-color: rgba(0, 149, 142, 1);
 }
 
 a:link {
@@ -223,34 +326,12 @@ a:link {
 /* End styling main1 */
 
 .main2 {
-  min-height: auto;
-  background-color: #57465b;
   padding-top: 160px;
-  color: rgba(
-    206,
-    194,
-    209,
-    0.9
-  );
   padding-bottom: 60px;
 }
 
-.main2-content {
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 .main2 h2 {
-  color: rgba(
-    239,
-    203,
-    127,
-    0.9
-  );
-  font-family: "Montserrat",
-    sans-serif;
+  color: rgba(239, 203, 127, 0.9);
   font-weight: 900;
   font-size: 32px;
   position: absolute;
@@ -264,9 +345,6 @@ a:link {
 .main2-box img {
   width: 350px;
   height: 300px;
-  object-fit: cover;
-  border-radius: 0px
-    30px;
 }
 .main2-box h3 {
   padding-top: 19px;
@@ -278,67 +356,28 @@ a:link {
 }
 
 .main2-btn {
-  border: none;
-  padding: 16px 30px;
-  border-radius: 0px
-    30px;
-  color: #1a212e;
-  cursor: pointer;
-  transition: all
-    0.3s linear;
-  position: relative;
-  background-color: rgba(
-    0,
-    149,
-    142,
-    0.8
-  );
   margin-top: 10px;
-  font-family: "Montserrat",
-    sans-serif;
-  font-weight: 800;
   font-size: 20px;
   width: 200px;
-  display: block;
-  margin-left: calc(
-    50% - 100px
-  );
+  margin-left: calc(50% - 100px);
 }
 
 .main2-btn:hover,
 .main2-btn:focus {
-  background-color: rgba(
-    0,
-    149,
-    142,
-    1
-  );
+  background-color: rgba(0, 149, 142, 1);
 }
 
 /* End styling main2 */
+
+/* Start styling main3 */
 .main3 {
-  min-height: auto;
-  background-color: #1f0924;
-  padding-top: 160px;
-  color: rgba(
-    206,
-    194,
-    209,
-    0.9
-  );
-  height: auto;
+  padding: 160px 40px 100px 40px;
   max-width: 100%;
   display: grid;
-  justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 1200px;
-  padding-bottom: 100px;
   gap: 80px;
-  /*background-color: rgba(206, 194, 209, 0.2);*/
-  margin: 0 auto;
   position: relative;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .main3 img {
@@ -346,14 +385,6 @@ a:link {
 }
 
 .main3 h2 {
-  color: rgba(
-    239,
-    203,
-    127,
-    0.85
-  );
-  font-family: "Montserrat",
-    sans-serif;
   font-weight: 900;
   font-size: 32px;
 }
@@ -362,19 +393,8 @@ a:link {
   font-size: 28px;
 }
 
-.main3-box-1,
-.main3-box-2,
-.main3-box-3,
-.main3-box-4,
-.main3-box-5,
-.main3-box-6,
-.main3-box-7 {
-  text-align: center;
-}
-
 .main3-box-1 {
   grid-column: 1/7;
-  margin: 0 auto;
   padding-bottom: 30px;
 }
 
@@ -407,38 +427,12 @@ a:link {
 /* START Explore page */
 
 .main-explore {
-  background-color: #1f0924;
   padding-top: 160px;
-  color: rgba(
-    206,
-    194,
-    209,
-    0.9
-  );
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 30px;
   margin-top: 100px;
   margin-bottom: 100px;
 }
 .main-explore-middle {
-  background-color: #57465b;
   padding-top: 160px;
-  color: rgba(
-    206,
-    194,
-    209,
-    1
-  );
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 30px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -452,19 +446,12 @@ a:link {
   display: grid;
 }
 
-.main-explore-middle-right
-  p {
+.main-explore-middle-right p {
   font-size: 20px;
 }
 
-.main-explore-middle-right
-  h2 {
-  color: rgba(
-    239,
-    203,
-    127,
-    1
-  );
+.main-explore-middle-right h2 {
+  color: rgba(239, 203, 127, 0.9);
   padding-bottom: 10px;
   font-size: 24px;
 }
@@ -474,30 +461,21 @@ a:link {
   margin: 80px;
 }
 
-.main-explore-middle-left
-  img {
+.main-explore-middle-left img {
   width: 40rem;
-  object-fit: cover;
-  border-radius: 0px
-    30px;
 }
 
 .main-explore-left {
   width: 40rem;
   margin: 80px;
 }
-.main-explore-left
-  p {
+.main-explore-left p {
   padding-top: 20px;
   font-size: 18.5px;
 }
 
-.main-explore-left
-  img {
+.main-explore-left img {
   width: 40rem;
-  object-fit: cover;
-  border-radius: 0px
-    30px;
 }
 
 .main-explore-right {
@@ -509,20 +487,12 @@ a:link {
   display: grid;
 }
 
-.main-explore-right
-  p {
+.main-explore-right p {
   font-size: 20px;
 }
 
-.main-explore-right
-  h2 {
+.main-explore-right h2 {
   font-size: 24px;
-  color: rgba(
-    239,
-    203,
-    127,
-    0.85
-  );
   padding-bottom: 10px;
 }
 
@@ -531,24 +501,10 @@ a:link {
 /* START Exhibitions page */
 
 .exhibitions {
-  height: auto;
   margin-top: 200px;
 }
 
 .main-exhibitions {
-  color: #1f0924;
-  color: rgba(
-    206,
-    194,
-    209,
-    0.9
-  );
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 30px;
   margin-bottom: 200px;
 }
 
@@ -558,30 +514,17 @@ a:link {
   margin-right: 40px;
   order: 2;
   display: grid;
-  text-align: center;
   margin-top: 30px;
   min-width: 280px;
 }
 
 .content-exhibitions {
-  border: 2px solid
-    rgba(
-      206,
-      194,
-      209,
-      1
-    );
-  background-color: rgba(
-    206,
-    194,
-    209,
-    0.1
-  );
+  border: 2px solid rgba(206, 194, 209, 1);
+  background-color: rgba(206, 194, 209, 0.1);
   border-radius: 30px;
   padding: 24px 24px;
   margin-top: 20px;
   text-align: left;
-  height: auto;
 }
 
 .main-exhibitions-left {
@@ -590,47 +533,217 @@ a:link {
   margin-right: 80px;
 }
 
-.main-exhibitions-left
-  img {
+.main-exhibitions-left img {
   width: 20rem;
-  object-fit: cover;
   padding: 10px;
 }
 
-.main-exhibitions-right
-  p {
+.main-exhibitions-right p {
   font-size: 22px;
 }
 
-.main-exhibitions-right
-  h2 {
+.main-exhibitions-right h2 {
   font-size: 30px;
-  color: rgba(
-    239,
-    203,
-    127,
-    1
-  );
+  color: rgba(239, 203, 127, 1);
 }
 
 /* END exhibitions page */
 
-/* Responsive EXPLORE and GET INVOLVED */
+/* Booking */
+
+.main1-booking {
+  margin-top: 80px;
+  margin-bottom: 200px;
+}
+
+.main1-booking h2,
+.main2-booking h2 {
+  margin-top: 80px;
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+.main-booking-left {
+  align-self: center;
+  min-width: 320px;
+  width: 400px;
+  padding: 20px;
+  border: 2px solid rgba(206, 194, 209, 0.9);
+  margin: 90px 8em 0em 8em;
+}
+
+.booking-paragraf {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.main-booking-right {
+  width: 25em;
+  margin: 0px 8em 0em 8em;
+}
+
+.main-booking-right img {
+  width: 15em;
+}
+
+.main-booking-right h3 {
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.main-booking-right p {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.personal-info {
+  width: 25em;
+  display: inline;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  width: 25em;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #cec2d1;
+  border-radius: 0px;
+  box-sizing: border-box;
+}
+
+.personal-info p {
+  padding: 0px;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+textarea {
+  padding: 10px 10px;
+  font-size: 16px;
+  width: 22em;
+  box-sizing: border-box;
+  border: 2px solid rgba(206, 194, 209, 0.3);
+  background-color: rgba(206, 194, 209, 0.3);
+  resize: none;
+  height: 220px;
+}
+
+.main-booking-right textarea {
+  margin-top: 20px;
+}
+
+.booking-ex-ilu i {
+  font-size: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50%;
+}
+
+.booking-ex-ilu {
+  display: flex;
+}
+
+.main2-booking {
+  padding: 40px;
+}
+
+.main2-booking-box,
+.main2-booking-box-middle {
+  margin: 40px;
+  width: 340px;
+  height: 800px;
+  border: 2px solid rgba(206, 194, 209, 0.7);
+  background-color: rgba(206, 194, 209, 0.7);
+}
+
+.main2-booking img {
+  padding: 10px;
+  width: 320px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.booking-event-info {
+  text-align: left;
+  padding: 20px;
+  color: #1f0924;
+}
+.main2-booking select {
+  margin-top: 10px;
+  background-color: rgba(31, 9, 36, 0.7);
+  padding: 10px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid rgba(31, 9, 36, 0.7);
+}
+
+.main2-booking .personal-info {
+  width: 330px;
+}
+
+.main2-booking input[type="text"] {
+  width: 25em;
+  padding: 12px;
+  border: none;
+  background-color: rgba(206, 194, 209, 0);
+  border-bottom: 1px solid #1f0924;
+  border-radius: 0px;
+}
+
+.main1-booking ::placeholder {
+  color: rgba(206, 194, 209, 0.7);
+}
+
+.main1-booking ::-ms-input-placeholder {
+  color: rgba(206, 194, 209, 0.7);
+}
+
+.main2-booking .main2-btn {
+  width: 300px;
+  margin: 20px;
+}
+
+.main2-booking-box p {
+  padding-bottom: 10px;
+}
+
+.main2-booking ::placeholder {
+  color: #1f0924;
+}
+
+.main1-booking ::-ms-input-placeholder {
+  color: #1f0924;
+}
+
+.main1-booking .personal-info label {
+  color: rgba(206, 194, 209, 0.9);
+}
+
+.main2-booking .personal-info label {
+  color: rgba(31, 9, 36, 0.7);
+}
+
+.main1-booking .personal-info label,
+.main2-booking .personal-info label {
+  font-weight: 600;
+}
+
+/* ----------------------------- */
+
+/* RESPONSIVE EXPLORE and GET INVOLVED */
 
 @media (max-width: 880px) {
   .main-explore-middle-left,
-  .main-explore-middle-left
-    img,
+  .main-explore-middle-left img,
   .main-explore-left,
-  .main-explore-left
-    img,
+  .main-explore-left img,
   .main-explore-right,
   .main-explore-middle-right {
     width: 32rem;
   }
 
-  .main-explore-middle-right
-    p {
+  .main-explore-middle-right p {
     font-size: 18px;
   }
 
@@ -638,8 +751,7 @@ a:link {
     margin: 80px;
   }
 
-  .main-explore-right
-    p {
+  .main-explore-right p {
     font-size: 18px;
   }
 
@@ -657,30 +769,17 @@ a:link {
   }
 
   .main-explore h1 {
-    font-family: "Montserrat",
-      sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 80px;
-    color: rgba(
-      239,
-      203,
-      127,
-      0.85
-    );
+    color: rgba(239, 203, 127, 0.85);
     font-size: 40px;
   }
 
-  .main-exhibitions
-    h1 {
+  .main-exhibitions h1 {
     width: 100%;
-    font-family: "Montserrat",
-      sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 80px;
-    color: rgba(
-      239,
-      203,
-      127,
-      0.85
-    );
+    color: rgba(239, 203, 127, 0.85);
     font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
@@ -688,12 +787,10 @@ a:link {
 
   /* Responsive Exhibitions */
 
-  .main-exhibitions-right
-    p {
+  .main-exhibitions-right p {
     font-size: 18px;
   }
-  .main-exhibitions-right
-    h2 {
+  .main-exhibitions-right h2 {
     font-size: 26px;
   }
 
@@ -711,35 +808,35 @@ a:link {
     height: 30em;
   }
 
+  .main1-btn {
+    font-size: 23px;
+    width: 220px;
+  }
+
   /* Responsive Booking */
 
   .main-booking-left {
-    margin: 0em 20px
-      0em 20px;
+    margin: 0em 20px 0em 20px;
   }
 
   .main-booking-right {
     width: 25em;
     text-align: center;
-    margin: 90px
-      20px 0em 20px;
+    margin: 90px 20px 90px 20px;
   }
 }
 
 @media (max-width: 600px) and (min-width: 300px) {
   .main-explore-middle-left,
-  .main-explore-middle-left
-    img,
+  .main-explore-middle-left img,
   .main-explore-left,
-  .main-explore-left
-    img,
+  .main-explore-left img,
   .main-explore-right,
   .main-explore-middle-right {
     width: 20rem;
   }
 
-  .main-explore-middle-right
-    p {
+  .main-explore-middle-right p {
     font-size: 16px;
   }
 
@@ -747,8 +844,7 @@ a:link {
     margin: 80px;
   }
 
-  .main-explore-right
-    p {
+  .main-explore-right p {
     font-size: 16px;
   }
 
@@ -758,10 +854,8 @@ a:link {
     margin-right: 10px;
   }
 
-  .main-explore-middle-right
-    h2,
-  .main-explore-right
-    h2 {
+  .main-explore-middle-right h2,
+  .main-explore-right h2 {
     font-size: 18px;
   }
 
@@ -782,23 +876,59 @@ a:link {
     font-size: 16px;
   }
 
-  .main-explore h1 {
+  .main-explore h1,
+  .main-exhibitions h1 {
     font-size: 30px;
+  }
+
+  .main2-box p,
+  .main2-box h3 {
+    padding: 10px;
+  }
+
+  .main2-box h3 {
+    font-size: 19px;
+  }
+
+  .main2-box p {
+    font-size: 18px;
+  }
+
+  .main2-box img {
+    width: 320px;
+    height: 270px;
+  }
+
+  .main2 h2,
+  .main3 h2 {
+    font-size: 28px;
+  }
+
+  .main1-btn {
+    font-size: 21px;
+    width: 180px;
+  }
+
+  .main-booking-right {
+    width: 340px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  textarea {
+    width: 260px;
+  }
+
+  .personal-info {
+    width: 300px;
   }
 }
 @media (min-width: 880px) {
   .main-explore h1,
-  .main-exhibitions
-    h1 {
+  .main-exhibitions h1 {
     display: none;
     margin-top: 80px;
-    color: rgba(
-      239,
-      203,
-      127,
-      0.85
-    );
-    font-size: 50px;
+    color: rgba(239, 203, 127, 0.85);
   }
 
   .main-exhibitions-right {
@@ -814,7 +944,7 @@ a:link {
     margin: 90px;
     margin-top: 100px;
     order: 2;
-    min-width: 300px;
+    min-width: 340px;
   }
 
   .main1-right {
@@ -829,14 +959,7 @@ a:link {
   .main1-left {
     padding: 20px;
     border-radius: 20px;
-    border: 3px
-      solid
-      rgba(
-        206,
-        194,
-        209,
-        0.3
-      );
+    border: 3px solid rgba(206, 194, 209, 0.3);
   }
 }
 
@@ -851,7 +974,7 @@ a:link {
 
 @media (max-width: 660px) and (min-width: 300px) {
   .main1 h1 {
-    font-size: 30px;
+    font-size: 32px;
     text-align: left;
   }
   .main1 p {
@@ -859,10 +982,6 @@ a:link {
   }
   .main1-right {
     width: 100vw;
-  }
-
-  .main1 h1 {
-    font-size: 26px;
   }
 }
 
@@ -910,291 +1029,4 @@ a:link {
   .main-booking-left {
     order: 2;
   }
-}
-
-/* Booking */
-
-.main1-booking {
-  color: #cec2d1;
-  margin-top: 80px;
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 30px;
-  margin-bottom: 200px;
-}
-
-.main1-booking h2,
-.main2-booking h2 {
-  width: 100%;
-  font-family: "Montserrat",
-    sans-serif;
-  margin-top: 80px;
-  color: rgba(
-    239,
-    203,
-    127,
-    0.85
-  );
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 80px;
-}
-.main-booking-left {
-  align-self: center;
-  height: auto;
-  min-width: 320px;
-  width: 400px;
-  padding: 20px;
-  border-radius: 20px;
-  border: 2px solid
-    rgba(
-      206,
-      194,
-      209,
-      0.9
-    );
-  margin: 90px 8em
-    0em 8em;
-}
-
-.booking-paragraf {
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-
-.main-booking-right {
-  width: 25em;
-  text-align: center;
-  margin: 0px 8em
-    0em 8em;
-}
-
-.main-booking-right
-  img {
-  width: 15em;
-}
-
-.main-booking-right
-  h3 {
-  font-size: 22px;
-  padding-top: 10px;
-}
-
-.main-booking-right
-  p {
-  text-align: left;
-  padding: 10px 20px;
-}
-
-.personal-info {
-  width: 25em;
-  display: inline;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  color: #cec2d1;
-}
-
-input[type="text"] {
-  width: 25em;
-  padding: 12px;
-  border: none;
-  background-color: #1f0924;
-  border-bottom: 1px
-    solid #cec2d1;
-  border-radius: 0px;
-  box-sizing: border-box;
-  color: #cec2d1;
-}
-
-label {
-  display: block;
-  justify-content: center;
-  color: #cec2d1;
-}
-
-.personal-info p {
-  padding: 0px;
-  padding-top: 20px;
-  font-size: 14px;
-  color: #cec2d1;
-}
-
-textarea {
-  padding: 10px 10px;
-  font-size: 16px;
-  width: 22em;
-  height: 150px;
-  box-sizing: border-box;
-  border: 2px solid
-    rgba(
-      206,
-      194,
-      209,
-      0.3
-    );
-  border-radius: 20px;
-  background-color: rgba(
-    206,
-    194,
-    209,
-    0.3
-  );
-  resize: none;
-  color: #cec2d1;
-  height: 220px;
-}
-
-.main-booking-right
-  textarea {
-  margin-top: 20px;
-}
-
-.booking-ex-ilu i {
-  font-size: 26px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 50%;
-}
-
-.booking-ex-ilu {
-  display: flex;
-}
-
-.main2-booking {
-  min-height: auto;
-  background-color: #57465b;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 40px;
-}
-
-.main2-booking-box,
-.main2-booking-box-middle {
-  text-align: center;
-  margin: 40px;
-  width: 340px;
-  height: 800px;
-  border-radius: 20px;
-  color: #1f0924;
-  border: 2px solid
-    rgba(
-      206,
-      194,
-      209,
-      0.7
-    );
-  background-color: rgba(
-    206,
-    194,
-    209,
-    0.7
-  );
-}
-
-.main2-booking img {
-  padding: 10px;
-  width: 320px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 30px;
-}
-
-.booking-event-info {
-  text-align: left;
-  padding: 20px;
-}
-.main2-booking
-  select {
-  margin-top: 10px;
-  background-color: rgba(
-    31,
-    9,
-    36,
-    0.7
-  );
-  color: #cec2d1;
-  padding: 10px;
-  width: 300px;
-  border-radius: 4px;
-  border: 1px solid
-    rgba(
-      31,
-      9,
-      36,
-      0.7
-    );
-}
-
-.main2-booking
-  .personal-info {
-  width: 330px;
-}
-
-.main2-booking
-  input[type="text"] {
-  width: 25em;
-  padding: 12px;
-  border: none;
-  background-color: rgba(
-    206,
-    194,
-    209,
-    0
-  );
-  border-bottom: 1px
-    solid #1f0924;
-  border-radius: 0px;
-}
-
-.main2-booking
-  label {
-  color: #1f0924;
-}
-
-.main2-booking
-  ::placeholder {
-  color: #1f0924;
-}
-
-.main2-booking
-  ::-ms-input-placeholder {
-  color: #1f0924;
-}
-
-.main1-booking
-  ::placeholder {
-  color: rgba(
-    206,
-    194,
-    209,
-    0.7
-  );
-}
-
-.main1-booking
-  ::-ms-input-placeholder {
-  color: rgba(
-    206,
-    194,
-    209,
-    0.7
-  );
-}
-
-.main2-booking
-  .main2-btn {
-  width: 300px;
-  margin: 20px;
-}
-
-.main2-booking-box
-  p {
-  padding-bottom: 10px;
 }

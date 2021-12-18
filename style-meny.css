@@ -8,7 +8,8 @@
   position: fixed;
   width: 100%;
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(206, 194, 209, 0.8);
+  border-bottom: 1px solid
+    rgba(206, 194, 209, 0.8);
   z-index: 3;
 }
 
@@ -45,7 +46,7 @@
   max-height: 100vh;
 }
 
-/* lager sterk i burger-menyen */
+/* making lines in the hamburger menu */
 .header .menu-icon .nav-icon {
   height: 2px;
   width: 18px;
@@ -97,23 +98,29 @@
   color: rgba(206, 194, 209, 0.8);
 }
 
-/* ekstra animasjon av hamburger-ikon */
+/* extra animation of the hamburger icon */
 
 .header .menu-btn:checked ~ .menu-icon .nav-icon {
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon::after {
+.header
+  .menu-btn:checked
+  ~ .menu-icon
+  .nav-icon::after {
   transform: rotate(-45deg);
   top: 0;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon::before {
+.header
+  .menu-btn:checked
+  ~ .menu-icon
+  .nav-icon::before {
   transform: rotate(45deg);
   top: 0;
 }
 
-/* koding for å endre menyen i mobilvisning */
+/* change the menu in mobile view */
 
 @media screen and (min-width: 880px) {
   .header .menu-icon {
