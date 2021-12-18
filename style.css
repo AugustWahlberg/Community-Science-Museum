@@ -668,6 +668,11 @@ textarea {
   padding: 20px;
   color: #1f0924;
 }
+
+.booking-event-info h3,
+.booking-event-info p {
+  color: rgba(31, 9, 36, 0.8);
+}
 .main2-booking select {
   margin-top: 10px;
   background-color: rgba(31, 9, 36, 0.7);
