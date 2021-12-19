@@ -586,6 +586,7 @@ a:link {
 
 .main-booking-right img {
   width: 15em;
+  height: auto;
 }
 
 .main-booking-right h3 {
