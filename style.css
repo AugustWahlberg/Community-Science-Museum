@@ -169,6 +169,7 @@ label {
 .main-explore-middle,
 .main2-booking {
   background-color: #57465b;
+  background-color: #2e1a34;
 }
 
 .main2-box img,
@@ -204,6 +205,7 @@ footer,
 .footer,
 .footer-bottom-text {
   background-color: #7d7794;
+  background-color: #9f90a2;
 }
 
 footer {
@@ -363,7 +365,9 @@ a:link {
 }
 
 .main2-btn:hover,
-.main2-btn:focus {
+.main2-btn:focus,
+.main2-booking .main2-btn:hover,
+.main2-booking .main2-btn:focus {
   background-color: rgba(0, 149, 142, 1);
 }
 
@@ -427,8 +431,8 @@ a:link {
 /* START Explore page */
 
 .main-explore {
-  padding-top: 60px;
-  margin-top: 100px;
+  padding-top: 30px;
+  margin-top: 60px;
   margin-bottom: 60px;
 }
 .main-explore-middle {
@@ -566,7 +570,7 @@ a:link {
   min-width: 320px;
   width: 400px;
   padding: 20px;
-  border: 2px solid rgba(206, 194, 209, 0.9);
+  border: 3px solid rgba(206, 194, 209, 0.3);
   margin: 90px 8em 0em 8em;
 }
 
@@ -706,6 +710,7 @@ textarea {
 .main2-booking .main2-btn {
   width: 300px;
   margin: 20px;
+  background-color: rgba(0, 149, 142, 0.6);
 }
 
 .main2-booking-box p {
