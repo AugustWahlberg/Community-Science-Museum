@@ -1,9 +1,6 @@
 * {
   font-family: "Montserrat", sans-serif;
   font-family: "Quicksand", sans-serif;
-  margin: 0;
-  
- 
 }
 
 *, *:before, *:after {
@@ -30,7 +27,12 @@ main {
 .left-footer,
 .footer h4,
 .right-footer p,
-.contact-content p,
+.contact-content p
+{
+  margin: 0;
+}
+
+
 .main2-booking-box-middle p,
 .main2-booking-box p 
 {
@@ -38,8 +40,18 @@ main {
 }
 
 
+.main-exhibitions-right p,
+.main-exhibitions-right h2
+{
+  margin: 0;
+}
 
-
+.main-exhibitions{
+  
+  
+  justify-content: center;
+}
+  
 
 
 .main1-left p{
@@ -731,7 +743,6 @@ a:link {
 
 .main-exhibitions-right h2 {
   font-size: 30px;
-  margin-top: 10px;
   color: rgba(239, 203, 127, 1);
 }
 
