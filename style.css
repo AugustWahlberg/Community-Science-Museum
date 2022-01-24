@@ -1,12 +1,12 @@
 * {
   font-family: "Montserrat", sans-serif;
   font-family: "Quicksand", sans-serif;
+ 
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 
 body {
   display: flex;
@@ -20,47 +20,6 @@ main {
   flex-grow: 1;
   background-color: #f7f8f9;
 }
-
-
-/* Start Menu-styling*/
-
-.left-footer,
-.footer h4,
-.right-footer p,
-.contact-content p
-{
-  margin: 0;
-}
-
-
-.main2-booking-box-middle p,
-.main2-booking-box p 
-{
-  margin: 0;
-}
-
-
-.main-exhibitions-right p,
-.main-exhibitions-right h2
-{
-  margin: 0;
-}
-
-.main-exhibitions{
-  
-  
-  justify-content: center;
-}
-  
-
-
-.main1-left p{
- margin-top: -10px;
-}
-.main1 h1{
-  margin-bottom: 14px;
-}
-
 
 /* Start Menu-styling*/
 
@@ -212,6 +171,25 @@ main {
 /* End Menu-styling*/
 
 /* Repetetive */
+
+.left-footer,
+.footer h4,
+.right-footer p,
+.contact-content p,
+.main2-booking-box-middle p,
+.main2-booking-box p,
+.main-exhibitions-right p,
+.main-exhibitions-right h2,
+.main1 h1,
+.main2 h3,
+.main2 p,
+.main-explore h2,
+.main-explore p,
+.main-explore-middle h2,
+.main-explore-middle p
+{
+  margin: 0;
+}
 
 body,
 main,
@@ -469,11 +447,12 @@ footer {
 
 .main1-left {
   width: 370px;
-  margin: 90px 90px 90px 90px;
+  margin: 150px 90px 90px 90px;
 }
 .main1-left p {
   padding-top: 20px;
   font-size: 19px;
+  margin-top: -10px;
 }
 
 .main1-right {
@@ -748,7 +727,7 @@ a:link {
 
 /* END exhibitions page */
 
-/* Booking */
+/* Start styling Booking */
 
 .main1-booking {
   margin-top: 80px;
@@ -769,7 +748,6 @@ a:link {
   border: 3px solid rgba(206, 194, 209, 0.3);
   margin: 90px 8em 0em 8em;
 }
-
 
 .booking-paragraf {
   padding-top: 10px; 
@@ -874,7 +852,6 @@ textarea {
 
 .main2-booking-box p {
   margin-bottom: 5px;
-  
 }
 
 .main2-booking img {
@@ -955,7 +932,7 @@ textarea {
   font-weight: 600;
 }
 
-/* ----------------------------- */
+/* End styling Booking */
 
 /* RESPONSIVE EXPLORE and GET INVOLVED */
 
