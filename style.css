@@ -437,7 +437,7 @@ footer {
 /* Start styling home page */
 
 .main1 {
-  padding: 160px 30px 0px 30px;
+  padding: 80px 30px 0px 30px;
   margin-bottom: 60px;
 }
 .main1 h1 {
@@ -462,7 +462,7 @@ footer {
 }
 
 .main1-right img {
-  height: 700px;
+  height: 35em;
 }
 
 .main1-btn,
@@ -498,7 +498,7 @@ a:link {
 /* End styling main1 */
 
 .main2 {
-  padding-top: 160px;
+  padding-top: 75px;
   padding-bottom: 60px;
 }
 
@@ -507,12 +507,13 @@ a:link {
   font-weight: 900;
   font-size: 32px;
   position: absolute;
+  margin-top: -15px;
 }
 
 .main2-box {
   width: 350px;
   margin: 85px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .main2-box img {
   width: 350px;
@@ -545,7 +546,7 @@ a:link {
 
 /* Start styling main3 */
 .main3 {
-  padding: 160px 40px 100px 40px;
+  padding: 40px 40px 100px 40px;
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -569,7 +570,7 @@ a:link {
 
 .main3-box-1 {
   grid-column: 1/7;
-  padding-bottom: 30px;
+  margin-bottom: -20px;
 }
 
 .main3-box-2 {
@@ -653,8 +654,7 @@ a:link {
 
 .main-explore-right {
   width: 40rem;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 0px 20px;
   order: 2;
   align-items: center;
   display: grid;
@@ -674,16 +674,16 @@ a:link {
 /* START Exhibitions page */
 
 .exhibitions {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .main-exhibitions {
-  margin-bottom: 200px;
+  margin-bottom: 80px;
   align-items: center;
 }
 
 .main-exhibitions-right {
-  width: 47rem;
+  width: 40rem;
   margin-left: 40px;
   margin-right: 40px;
   order: 2;
@@ -730,16 +730,16 @@ a:link {
 /* Start styling Booking */
 
 .main1-booking {
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 200px;
 }
 
 .main1-booking h2,
 .main2-booking h2 {
-  margin-top: 80px;
+  margin: 40px 0px;
   font-size: 30px;
-  margin-bottom: 80px;
 }
+
 .main-booking-left {
   align-self: center;
   min-width: 320px;
@@ -974,6 +974,7 @@ textarea {
   .main-explore h1 {
     font-family: "Montserrat", sans-serif;
     margin-top: 80px;
+    margin-bottom: -40px;
     color: rgba(239, 203, 127, 0.85);
     font-size: 40px;
   }
