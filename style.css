@@ -1,11 +1,18 @@
 * {
   font-family: "Montserrat", sans-serif;
   font-family: "Quicksand", sans-serif;
- 
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+:root {
+  --darkPurple: #1f0924;
+  --pink: #CEC2D1;
+  --yellow: rgba(239, 203, 127, 0.85) ;
+  --body-font: "Quicksand", sans-serif;
+  --heading-font: "Montserrat", sans-serif;
 }
 
 body {
@@ -24,7 +31,7 @@ main {
 /* Start Menu-styling*/
 
 .header {
-  background-color: #1f0924;
+  background-color: var(--darkPurple);
   position: fixed;
   width: 100%;
   text-transform: uppercase;
@@ -75,14 +82,14 @@ main {
 .header .menu-icon .nav-icon {
   height: 2px;
   width: 18px;
-  background-color: #cec2d1;
+  background-color: var(--pink);
   display: block;
   position: relative;
 }
 
 .header .menu-icon .nav-icon::before,
 .header .menu-icon .nav-icon::after {
-  background-color: #cec2d1;
+  background-color: var(--pink);
   width: 100%;
   height: 100%;
   display: block;
@@ -196,7 +203,7 @@ main,
 .main3,
 .main-explore,
 input[type="text"] {
-  background-color: #1f0924;
+  background-color: var(--darkPurple);
 }
 
 .some-icons,
@@ -261,7 +268,7 @@ footer,
 .main2-booking-box,
 .main2-booking-box-middle,
 .main2-booking label {
-  color: #1f0924;
+  color: var(--darkPurple);
 }
 
 .line,
@@ -316,7 +323,7 @@ label {
 .main-explore-right h2,
 .main1-booking h2,
 .main2-booking h2 {
-  color: rgba(239, 203, 127, 0.85);
+  color: var(--yellow);
 }
 
 .main1 h1,
@@ -326,7 +333,7 @@ label {
 .main3 h2,
 .main1-booking h2,
 .main2-booking h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--heading-font)
 }
 
 .main1-btn,
@@ -340,7 +347,6 @@ label {
 .main2,
 .main-explore-middle,
 .main2-booking {
-  background-color: #57465b;
   background-color: #2e1a34;
 }
 
@@ -367,7 +373,7 @@ label,
 textarea,
 .main2-booking select,
 .main-explore-middle {
-  color: #cec2d1;
+  color: var(--pink);
 }
 
 /* End Repetetive */
@@ -376,7 +382,6 @@ textarea,
 footer,
 .footer,
 .footer-bottom-text {
-  background-color: #7d7794;
   background-color: #9f90a2;
 }
 
@@ -792,7 +797,7 @@ input[type="text"] {
   width: 25em;
   padding: 12px;
   border: none;
-  border-bottom: 1px solid #cec2d1;
+  border-bottom: 1px solid var(--pink);
   border-radius: 0px;
   box-sizing: border-box;
 }
@@ -864,7 +869,7 @@ textarea {
 .booking-event-info {
   text-align: left;
   padding: 20px;
-  color: #1f0924;
+  color: var(--darkPurple);
 }
 
 .booking-event-info h3,
@@ -889,7 +894,7 @@ textarea {
   padding: 12px;
   border: none;
   background-color: rgba(206, 194, 209, 0);
-  border-bottom: 1px solid #1f0924;
+  border-bottom: 1px solid var(--darkPurple);
   border-radius: 0px;
 }
 
@@ -912,11 +917,11 @@ textarea {
 }
 
 .main2-booking ::placeholder {
-  color: #1f0924;
+  color: var(--darkPurple);
 }
 
 .main1-booking ::-ms-input-placeholder {
-  color: #1f0924;
+  color: var(--darkPurple);
 }
 
 .main1-booking .personal-info label {
@@ -972,18 +977,18 @@ textarea {
   }
 
   .main-explore h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--heading-font);
     margin-top: 80px;
     margin-bottom: -40px;
-    color: rgba(239, 203, 127, 0.85);
+    color: var(--yellow);
     font-size: 40px;
   }
 
   .main-exhibitions h1 {
     width: 100%;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--heading-font);
     margin-top: 80px;
-    color: rgba(239, 203, 127, 0.85);
+    color: var(--yellow);
     font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
@@ -1145,7 +1150,7 @@ textarea {
   .main-exhibitions h1 {
     display: none;
     margin-top: 80px;
-    color: rgba(239, 203, 127, 0.85);
+    color: var(--yellow);
   }
 }
 
@@ -1246,3 +1251,85 @@ textarea {
     margin-bottom: 60px;
   }
 }
+
+
+/* icons from Font Awsome*/
+
+.fa-phone-alt:before {
+  content: "\f879"; }
+
+.fa-envelope:before {
+  content: "\f0e0"; }
+
+.fa-map-marker-alt:before {
+  content: "\f3c5"; }
+
+.fa-instagram-square:before {
+  content: "\e055"; }
+
+.fa-youtube:before {
+  content: "\f167"; }
+
+.fa-facebook-square:before {
+  content: "\f082"; }
+
+.fa-chevron-left:before {
+  content: "\f053"; }
+
+.fa-chevron-right:before {
+  content: "\f054"; }
+
+
+  @font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../webfonts/fa-brands-400.eot");
+    src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+  
+  .fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400; }
+  @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../webfonts/fa-regular-400.eot");
+    src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+  
+  @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../webfonts/fa-solid-900.eot");
+    src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+  
+  .fa,
+  .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; }
+
+    .fa-2x {
+      font-size: 2em; }
+
+      /*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1; }
+    
