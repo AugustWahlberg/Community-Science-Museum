@@ -457,7 +457,7 @@ footer {
 
 .main1-right {
   width: 50rem;
-  margin-left: 0px 40px;
+  margin-left: 40px;
   order: 2;
 }
 
@@ -1203,7 +1203,6 @@ textarea {
 @media (max-width: 1200px) {
   .main3 {
     display: flex;
-    flex: wrap;
     justify-content: center;
     flex-wrap: wrap;
   }
