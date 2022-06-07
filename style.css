@@ -3,14 +3,16 @@
   font-family: "Quicksand", sans-serif;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 :root {
   --darkPurple: #1f0924;
   --pink: #CEC2D1;
-  --yellow: rgba(239, 203, 127, 0.85) ;
+  --yellow: rgba(239, 203, 127, 0.85);
   --body-font: "Quicksand", sans-serif;
   --heading-font: "Montserrat", sans-serif;
 }
@@ -35,8 +37,7 @@ main {
   position: fixed;
   width: 100%;
   text-transform: uppercase;
-  border-bottom: 1px solid
-    rgba(206, 194, 209, 0.8);
+  border-bottom: 1px solid rgba(206, 194, 209, 0.8);
   z-index: 3;
 }
 
@@ -70,11 +71,11 @@ main {
   transition: max-height 0.5s ease-in-out;
 }
 
-.menu{
+.menu {
   padding: 0px;
 }
 
-.header .menu-btn:checked ~ .menu {
+.header .menu-btn:checked~.menu {
   max-height: 100vh;
 }
 
@@ -132,22 +133,16 @@ main {
 
 /* extra animation of the hamburger icon */
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon {
+.header .menu-btn:checked~.menu-icon .nav-icon {
   background: transparent;
 }
 
-.header
-  .menu-btn:checked
-  ~ .menu-icon
-  .nav-icon::after {
+.header .menu-btn:checked~.menu-icon .nav-icon::after {
   transform: rotate(-45deg);
   top: 0;
 }
 
-.header
-  .menu-btn:checked
-  ~ .menu-icon
-  .nav-icon::before {
+.header .menu-btn:checked~.menu-icon .nav-icon::before {
   transform: rotate(45deg);
   top: 0;
 }
@@ -166,6 +161,7 @@ main {
     float: right;
     clear: none;
   }
+
   .header li {
     float: left;
   }
@@ -193,8 +189,7 @@ main {
 .main-explore h2,
 .main-explore p,
 .main-explore-middle h2,
-.main-explore-middle p
-{
+.main-explore-middle p {
   margin: 0;
 }
 
@@ -206,25 +201,20 @@ input[type="text"] {
   background-color: var(--darkPurple);
 }
 
+
 .some-icons,
 .main1-right,
 .main1-right img,
 .main3-box-1,
-.main3-box-2,
-.main3-box-3,
-.main3-box-4,
-.main3-box-5,
-.main3-box-6,
-.main3-box-7,
 .main-exhibitions-right,
 .main-booking-right,
 .main1-booking h2,
 .main2-booking h2,
-.main-booking-right,
 .personal-info,
 .main2-booking-box,
 .main2-booking-box-middle,
-.bottom-text-footer {
+.bottom-text-footer,
+.main3 {
   text-align: center;
 }
 
@@ -235,7 +225,8 @@ input[type="text"] {
 .main-explore-middle,
 .main-exhibitions,
 .main1-booking,
-.main2-booking {
+.main2-booking,
+.main3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -367,7 +358,6 @@ textarea,
 
 .main1-booking,
 .personal-info,
-input[type="text"],
 label,
 .personal-info p,
 textarea,
@@ -409,6 +399,7 @@ footer {
   order: 2;
   margin-left: 60px;
 }
+
 .right-footer p {
   padding: 2px;
 }
@@ -445,6 +436,7 @@ footer {
   padding: 80px 30px 0px 30px;
   margin-bottom: 60px;
 }
+
 .main1 h1 {
   font-weight: 900;
   font-size: 40px;
@@ -454,6 +446,7 @@ footer {
   width: 370px;
   margin: 150px 90px 90px 90px;
 }
+
 .main1-left p {
   padding-top: 20px;
   font-size: 19px;
@@ -464,6 +457,7 @@ footer {
   width: 50rem;
   margin-left: 40px;
   order: 2;
+  margin: auto 0;
 }
 
 .main1-right img {
@@ -520,15 +514,18 @@ a:link {
   margin: 85px;
   margin-top: 80px;
 }
+
 .main2-box img {
   width: 350px;
   height: 300px;
 }
+
 .main2-box h3 {
   padding-top: 19px;
   padding-bottom: 5px;
   font-size: 21px;
 }
+
 .main2 p {
   font-size: 19px;
 }
@@ -550,15 +547,6 @@ a:link {
 /* End styling main2 */
 
 /* Start styling main3 */
-.main3 {
-  padding: 40px 40px 100px 40px;
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 1200px;
-  gap: 80px;
-  position: relative;
-}
 
 .main3 img {
   width: 250px;
@@ -567,40 +555,18 @@ a:link {
 .main3 h2 {
   font-weight: 900;
   font-size: 32px;
+  margin: 0 auto;
+  display: block;
+  width: 100vw;
+  margin-bottom: 40px;
 }
+
 .main3 h3 {
   font-weight: bolder;
   font-size: 28px;
 }
 
-.main3-box-1 {
-  grid-column: 1/7;
-  margin-bottom: -20px;
-}
 
-.main3-box-2 {
-  grid-column: 1/4;
-  margin-left: 30%;
-}
-
-.main3-box-3 {
-  grid-column: 4/7;
-  margin-right: 30%;
-}
-
-.main3-box-4 {
-  grid-column: 1/3;
-}
-.main3-box-5 {
-  grid-column: 3/5;
-}
-.main3-box-6 {
-  grid-column: 5/7;
-}
-
-.main3-box-7 {
-  grid-column: 1/7;
-}
 
 /* END styling home page */
 
@@ -611,6 +577,7 @@ a:link {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
 .main-explore-middle {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -648,6 +615,7 @@ a:link {
   width: 40rem;
   margin: 80px;
 }
+
 .main-explore-left p {
   padding-top: 20px;
   font-size: 18.5px;
@@ -693,11 +661,11 @@ a:link {
   margin-right: 40px;
   order: 2;
   display: grid;
- 
+
   min-width: 280px;
   height: max-content;
   justify-content: center;
- 
+
 }
 
 .content-exhibitions {
@@ -705,7 +673,7 @@ a:link {
   background-color: rgba(206, 194, 209, 0.1);
   border-radius: 30px;
   padding: 24px 24px;
-  margin-top: 20px; 
+  margin-top: 20px;
   text-align: left;
   height: max-content;
 }
@@ -755,12 +723,14 @@ a:link {
 }
 
 .booking-paragraf {
-  padding-top: 10px; 
+  padding-top: 10px;
 }
-.booking-paragraf h3{
+
+.booking-paragraf h3 {
   margin: 0;
 }
-.booking-paragraf p{
+
+.booking-paragraf p {
   margin: 0px 0px 30px 0px;
 }
 
@@ -800,6 +770,7 @@ input[type="text"] {
   border-bottom: 1px solid var(--pink);
   border-radius: 0px;
   box-sizing: border-box;
+  color: var(--darkPurple);
 }
 
 .personal-info p {
@@ -851,7 +822,7 @@ textarea {
   margin-top: 10px;
 }
 
-.booking-event-info h3{
+.booking-event-info h3 {
   margin: 5px 0px;
 }
 
@@ -876,6 +847,7 @@ textarea {
 .booking-event-info p {
   color: rgba(31, 9, 36, 0.8);
 }
+
 .main2-booking select {
   margin-top: 10px;
   background-color: rgba(31, 9, 36, 0.7);
@@ -909,7 +881,7 @@ textarea {
 .main2-booking .main2-btn {
   width: 300px;
   margin: 0px 20px 20px 20px;
-  background-color: rgba(0, 149, 142, 0.6);
+  background-color: rgba(0, 149, 142, 0.4);
 }
 
 .main2-booking-box p {
@@ -939,9 +911,58 @@ textarea {
 
 /* End styling Booking */
 
+#right-button,
+#left-button {
+  opacity: 0.6;
+  font-size: 2.3em;
+}
+
+.main3 #right-button,
+.main3 #left-button {
+  font-size: 2.8em;
+}
+
+.main3 #right-button {
+  padding-left: 20px;
+}
+
+.main3 #left-button {
+  padding-right: 20px;
+}
+
+#right-button:hover,
+#left-button:hover {
+  opacity: 1;
+}
+
+
+.main3 {
+  padding: 40px;
+  max-width: 90vw;
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.main3-exhibitions {
+  text-align: center;
+  width: 30em;
+  margin: 0px 8em 0em 8em;
+}
+
+.main3-exhibitions img {
+  width: 22em;
+  max-height: 700px;
+  padding-top: 20px;
+}
+
+.main3-exhibitions h3 {
+  font-size: 30px;
+}
+
 /* RESPONSIVE EXPLORE and GET INVOLVED */
 
 @media (max-width: 880px) {
+
   .main-explore-middle-left,
   .main-explore-middle-left img,
   .main-explore-left,
@@ -999,6 +1020,7 @@ textarea {
   .main-exhibitions-right p {
     font-size: 18px;
   }
+
   .main-exhibitions-right h2 {
     font-size: 26px;
   }
@@ -1033,9 +1055,24 @@ textarea {
     text-align: center;
     margin: 0px 20px 90px 20px;
   }
+
+
+  .main3-exhibitions img {
+    width: 17em;
+  }
+
+  .main3-exhibitions h3 {
+    font-size: 28px;
+  }
+
+  .main3 #right-button,
+  .main3 #left-button {
+    font-size: 2.3em;
+  }
 }
 
 @media (max-width: 600px) and (min-width: 300px) {
+
   .main-explore-middle-left,
   .main-explore-middle-left img,
   .main-explore-left,
@@ -1144,8 +1181,33 @@ textarea {
     margin-right: auto;
     font-size: 18px;
   }
+
+  .main-booking-right img {
+    width: 12em;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* Responsive main3 exhibitions */
+
+.main3-exhibitions img {
+    width: 15em;
+  }
+
+  .main3-exhibitions h3 {
+    font-size: 24px;
+  }
+
+  .main3 #right-button,
+  .main3 #left-button {
+    font-size: 2em;
+  }
+
+
 }
+
 @media (min-width: 880px) {
+
   .main-explore h1,
   .main-exhibitions h1 {
     display: none;
@@ -1174,6 +1236,7 @@ textarea {
     font-size: 42px;
     margin-bottom: 0px;
   }
+
   .main1-left {
     padding: 20px;
     border-radius: 20px;
@@ -1185,6 +1248,7 @@ textarea {
   .main1 h1 {
     font-size: 38px;
   }
+
   .main1 p {
     font-size: 18px;
   }
@@ -1195,12 +1259,15 @@ textarea {
     font-size: 32px;
     text-align: left;
   }
+
   .main1 p {
     font-size: 18px;
   }
+
   .main1-right {
     width: 100vw;
   }
+
 }
 
 /* Responsive main3 */
@@ -1210,17 +1277,6 @@ textarea {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
-
-  .main3-box-1,
-  .main3-box-2,
-  .main3-box-3,
-  .main3-box-4,
-  .main3-box-5,
-  .main3-box-6,
-  .main3-box-7 {
-    margin: 0;
-    width: 100em;
   }
 }
 
@@ -1253,72 +1309,91 @@ textarea {
 }
 
 
-/* icons from Font Awsome*/
-
-.fa-phone-alt:before {
-  content: "\f879"; }
-
-.fa-envelope:before {
-  content: "\f0e0"; }
-
-.fa-map-marker-alt:before {
-  content: "\f3c5"; }
-
-.fa-instagram-square:before {
-  content: "\e055"; }
-
-.fa-youtube:before {
-  content: "\f167"; }
-
-.fa-facebook-square:before {
-  content: "\f082"; }
-
-.fa-chevron-left:before {
-  content: "\f053"; }
-
-.fa-chevron-right:before {
-  content: "\f054"; }
-
-
-  @font-face {
-    font-family: 'Font Awesome 5 Brands';
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
-    src: url("../webfonts/fa-brands-400.eot");
-    src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
-  
-  .fab {
-    font-family: 'Font Awesome 5 Brands';
-    font-weight: 400; }
-  @font-face {
-    font-family: 'Font Awesome 5 Free';
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
-    src: url("../webfonts/fa-regular-400.eot");
-    src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
-  
-  @font-face {
-    font-family: 'Font Awesome 5 Free';
-    font-style: normal;
-    font-weight: 900;
-    font-display: block;
-    src: url("../webfonts/fa-solid-900.eot");
-    src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
-  
-  .fa,
-  .fas {
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900; }
-
-    .fa-2x {
-      font-size: 2em; }
-
-      /*!
+/*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+
+.fa-phone-alt:before {
+  content: "\f879";
+}
+
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+.fa-map-marker-alt:before {
+  content: "\f3c5";
+}
+
+.fa-instagram-square:before {
+  content: "\e055";
+}
+
+.fa-youtube:before {
+  content: "\f167";
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+.fa-chevron-left:before {
+  content: "\f053";
+}
+
+.fa-chevron-right:before {
+  content: "\f054";
+}
+
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-brands-400.eot");
+  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-regular-400.eot");
+  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.fa-2x {
+  font-size: 3em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+
 .fa,
 .fas,
 .far,
@@ -1331,5 +1406,5 @@ textarea {
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
-  line-height: 1; }
-    
+  line-height: 1;
+}
