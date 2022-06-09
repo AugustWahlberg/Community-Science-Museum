@@ -998,6 +998,7 @@ textarea {
   font-weight: 600;
   margin: 0 auto;
   font-size: 15px;
+  display: none;
 }
 
 /* RESPONSIVE EXPLORE and GET INVOLVED */
