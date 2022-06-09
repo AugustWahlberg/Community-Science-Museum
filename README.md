@@ -12,8 +12,8 @@ You can add some bullet points if you'd like to:
 * item 2
 * item 3
 ## Built With
-React.js
-Bootstrap
+* React.js
+* Bootstrap
 
 ## Getting Started
 ### Installing
