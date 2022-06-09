@@ -4,7 +4,7 @@
 Website for local science museum
 
 ## Description
-Add a more detailed description of what your project entails and set out to do.
+In this project, I have created a website I have made website for the fictive customer Community Science Museum. The website is made to appeal to both kids (7-15 years) and families with young children. 
 
 You can add some bullet points if you'd like to:
 
