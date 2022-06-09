@@ -4,7 +4,7 @@
 Website for local science museum - Semester project 1, Noroff 2021
 
 ## Description
-This is my semester project for my first semester at Noroff. In this project, I have created a website for the fictive costumer Community Science Museum. The website is made to appeal to both kids (7-15 years) and families with young children. All illustrations, including the logo, are self made.
+This is my semester project for my first semester at Noroff. In this project, I have created a website for the fictive costumer Community Science Museum. The website is made to appeal to both kids (7-15 years) and families with young children. All illustrations, including the logo, are self made. You can read the full project report [here](https://drive.google.com/file/d/1qKnTTcMSAmv3uYXz2j6H_sWk3r7kVyhK/view?usp=sharing)
 
 ## Brief
 
