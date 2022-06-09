@@ -33,5 +33,5 @@ The target group is primary and middle school children in the age range of 7 - 1
 I appreciate any suggested improvements you may way, feel free to open a pull request if you want to get involved in this project.
 
 ## Contact
-My LinkedIn page: https://www.linkedin.com/in/augwahlberg/
+My LinkedIn page: https://www.linkedin.com/in/augwahlberg/  
 My email: aug.wahlberg@gmail.com
