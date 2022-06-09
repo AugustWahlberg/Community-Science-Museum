@@ -1469,7 +1469,7 @@ ul .active a {
   color: var(--yellow);
 }
 
-#select-event-qnt, #select-event-date {
+#select-event-qnt-1, #select-event-date-1, #select-event-qnt-2, #select-event-date-2, #select-event-qnt-3, #select-event-date-3 {
   font-weight: 600;
   text-align: left;
   padding-left: 20px;

@@ -132,128 +132,52 @@ function sendInquiry() {
     sendSuccsess.style.display = "flex";
 }
 
-/*Validation book event
+/*Validation book event 1*/
 
 
-const inputNameEvent = document.getElementById(
-  "fullname-2"
-);
-const contactNameErrorEvent = document.querySelector(
-  "#contact-name-error-event"
-);
-const contactEmailEvent = document.querySelector(
-  "#email-1-event"
-);
-const contactEmailErrorEvent = document.querySelector(
-  "#contact-email-error-event"
-);
-
-const sendSuccsessEvent = document.querySelector(
-  ".send-succsess-event"
-);
-
-
-const eventForm1 = document.getElementById("book-event-1");
-const eventForm2 = document.getElementById("book-event-2");
-const eventForm3 = document.getElementById("book-event-3");
-
-const bookEventbtn1 = document.getElementById("book-event-1-btn");
-const bookEventbtn2 = document.getElementById("book-event-2-btn");
-const bookEventbtn3 = document.getElementById("book-event-3-btn");
-
-bookEventbtn1.addEventListener("click", sendInquiryEvent); 
-bookEventbtn2.addEventListener("click", sendInquiryEvent); 
-bookEventbtn3.addEventListener("click", sendInquiryEvent); 
-
-
-eventForm1.addEventListener("submit", validateFormEvent);
-eventForm2.addEventListener("submit", validateFormEvent);
-eventForm3.addEventListener("submit", validateFormEvent);
-
-
-function validate(item, itemError, length) {
-  if (item.value.trim().length > length) {
-    itemErrorEvent.style.display = "none";
-  } else {
-    itemErrorEvent.style.display = "block";
-    verdi = false;
-  }
-}
-
-function validateFormEvent() {
-  event.preventDefault();
-  verdi = true;
-
-  if (
-    validateEmailEvent(contactEmailEvent.value) === true
-  ) {
-    contactEmailErrorEvent.style.display = "none";
-  } else {
-    contactEmailErrorEvent.style.display = "block";
-    verdi = false;
-  }
-
-  validate(inputNameEvent, contactNameErrorEvent, 5);
-}
-
-function validateEmailEvent(contactEmailEvent) {
-  const regEx = /\S+@\S+\.\S+/;
-  const patternMatches = regEx.test(contactEmailEvent);
-  return patternMatches;
-}
-
-sendSuccsessEvent.addEventListener("click", sendInquiryEvent);
-
-function sendInquiryEvent() {
-  validateFormEvent();
-
-  if (verdi == true)
-    sendSuccsess.style.display = "flex";
-} */
-
-// Form
 const eventForm1 = document.getElementById(
   "book-event-1"
 );
-const inputNameEvent =
-  document.getElementById("fullname-2");
-const contactNameErrorEvent =
+const inputNameEvent1 =
+  document.getElementById("fullname-event-1");
+
+const contactNameErrorEvent1 =
   document.querySelector(
-    "#contact-name-error-event"
+    "#contact-name-error-event-1"
   );
-const contactEmailEvent = document.querySelector(
-  "#email-1-event"
+const contactEmailEvent1 = document.querySelector(
+  "#email-event-1"
 );
-const contactEmailErrorEvent =
+const contactEmailErrorEvent1 =
   document.querySelector(
-    "#contact-email-error-event"
+    "#contact-email-error-event-1"
   );
 
-const sendSuccsessEvent = document.querySelector(
-  "#send-succsess-event"
+const sendSuccsessEvent1 = document.querySelector(
+  "#send-succsess-event-1"
 );
-let verdi2 = true;
+let verdi1 = true;
  
 function validateFormEvent(event) {
   event.preventDefault();
-  verdi2 = true;
+  verdi1 = true;
   
 
-  if (checkLength(inputNameEvent.value, 5) === true) {
-    contactNameErrorEvent.style.display = "none";
-    verdi2 = true;
-    console.log(verdi2)
+  if (checkLength(inputNameEvent1.value, 5) === true) {
+    contactNameErrorEvent1.style.display = "none";
+    verdi1 = true;
+    console.log(verdi1)
   } else {
-    contactNameErrorEvent.style.display = "block";
-    verdi2 = false;
+    contactNameErrorEvent1.style.display = "block";
+    verdi1 = false;
   }
 
-  if (validateEmailEvent(contactEmailEvent.value) === true) {
-    contactEmailErrorEvent .style.display = "none";
-    verdi2 = true;
+  if (validateEmailEvent(contactEmailEvent1.value) === true) {
+    contactEmailErrorEvent1 .style.display = "none";
+    verdi1 = true;
   } else {
-    contactEmailErrorEvent .style.display = "block";
-    verdi2 = false;
+    contactEmailErrorEvent1 .style.display = "block";
+    verdi1 = false;
   }
   sendInquiryEvent()
 }
@@ -276,9 +200,9 @@ function checkLength(value, len) {
   }
 }
 
-sendSuccsessEvent.addEventListener("click", sendInquiryEvent);
+sendSuccsessEvent1.addEventListener("click", sendInquiryEvent);
 
 function sendInquiryEvent() {
-  if (verdi2 == true)
-    sendSuccsessEvent.style.display = "block";
+  if (verdi1 == true)
+    sendSuccsessEvent1.style.display = "block";
 } 
