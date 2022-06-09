@@ -1,5 +1,5 @@
 ### Community Science Museum
-image
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 A simple overview of the use/purpose of the project.
 
