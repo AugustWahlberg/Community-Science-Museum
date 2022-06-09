@@ -134,12 +134,12 @@ function sendInquiry() {
 
 /*Validation book event 1*/
 
-
 const eventForm1 = document.getElementById(
   "book-event-1"
 );
-const inputNameEvent1 =
-  document.getElementById("fullname-event-1");
+const inputNameEvent1 = document.getElementById(
+  "fullname-event-1"
+);
 
 const contactNameErrorEvent1 =
   document.querySelector(
@@ -157,29 +157,37 @@ const sendSuccsessEvent1 = document.querySelector(
   "#send-succsess-event-1"
 );
 let verdi1 = true;
- 
+
 function validateFormEvent(event) {
   event.preventDefault();
   verdi1 = true;
-  
 
-  if (checkLength(inputNameEvent1.value, 5) === true) {
+  if (
+    checkLength(inputNameEvent1.value, 5) === true
+  ) {
     contactNameErrorEvent1.style.display = "none";
     verdi1 = true;
-    console.log(verdi1)
+    console.log(verdi1);
   } else {
-    contactNameErrorEvent1.style.display = "block";
+    contactNameErrorEvent1.style.display =
+      "block";
     verdi1 = false;
   }
 
-  if (validateEmailEvent(contactEmailEvent1.value) === true) {
-    contactEmailErrorEvent1 .style.display = "none";
+  if (
+    validateEmailEvent(
+      contactEmailEvent1.value
+    ) === true
+  ) {
+    contactEmailErrorEvent1.style.display =
+      "none";
     verdi1 = true;
   } else {
-    contactEmailErrorEvent1 .style.display = "block";
+    contactEmailErrorEvent1.style.display =
+      "block";
     verdi1 = false;
   }
-  sendInquiryEvent()
+  sendInquiryEvent();
 }
 
 function validateEmailEvent(email) {
@@ -188,21 +196,25 @@ function validateEmailEvent(email) {
   return patternMatches;
 }
 
-eventForm1.addEventListener("click", validateFormEvent);
+eventForm1.addEventListener(
+  "click",
+  validateFormEvent
+);
 
 function checkLength(value, len) {
-  
   if (value.trim().length > len) {
     return true;
-
   } else {
     return false;
   }
 }
 
-sendSuccsessEvent1.addEventListener("click", sendInquiryEvent);
+sendSuccsessEvent1.addEventListener(
+  "click",
+  sendInquiryEvent
+);
 
 function sendInquiryEvent() {
   if (verdi1 == true)
     sendSuccsessEvent1.style.display = "block";
-} 
+}
