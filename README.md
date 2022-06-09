@@ -15,14 +15,14 @@ To create a properly functioning, responsive website for the fictive customer Co
 The target group is primary and middle school children in the age range of 7 - 15 years, and families with young children. The target group is inquisitive and intelligent. 
 
 **Message/Achieved action:**  
--The website should be exciting, appealing, and informative  
--The website should be user-friendly and easy to navigate on all devices  
--The website should encourage the viewers to visit the museum  
+- The website should be exciting, appealing, and informative  
+- The website should be user-friendly and easy to navigate on all devices  
+- The website should encourage the viewers to visit the museum  
 
 **Website requirements:**  
--The code should be written in structured and understandable way  
--The website should download fast
--The website should follow the WCAG-standards
+- The code should be written in structured and understandable way  
+- The website should download fast
+- The website should follow the WCAG-standards
 
 ## Built With
 * HTML
