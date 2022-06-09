@@ -13,6 +13,7 @@
   --darkPurple: #1f0924;
   --pink: #CEC2D1;
   --yellow: rgba(239, 203, 127, 0.85);
+  --green: #00958E;
   --body-font: "Quicksand", sans-serif;
   --heading-font: "Montserrat", sans-serif;
 }
@@ -147,6 +148,26 @@ main {
   top: 0;
 }
 
+input[type="text"] {
+  width: 25em;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid var(--pink);
+  border-radius: 0px;
+  box-sizing: border-box;
+  color: var(--darkPurple);
+  font-size: 18px;
+}
+
+label {
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+
+option, select{
+  font-size: 16px;
+}
 
 
 /* change the menu in mobile view */
@@ -487,7 +508,7 @@ footer {
 
 .main1-btn:hover,
 .main1-btn:focus {
-  background-color: rgba(0, 149, 142, 1);
+  background-color: var(--green);
 }
 
 a:link {
@@ -541,7 +562,7 @@ a:link {
 .main2-btn:focus,
 .main2-booking .main2-btn:hover,
 .main2-booking .main2-btn:focus {
-  background-color: rgba(0, 149, 142, 1);
+  background-color: var(--green);
 }
 
 /* End styling main2 */
@@ -565,7 +586,6 @@ a:link {
   font-weight: bolder;
   font-size: 28px;
 }
-
 
 
 /* END styling home page */
@@ -740,19 +760,24 @@ a:link {
 }
 
 .main-booking-right img {
-  width: 15em;
+  width: 18em;
   height: auto;
-  max-height: 400px;
+  max-height: 600px;
 }
 
 .main-booking-right h3 {
-  font-size: 22px;
+  font-size: 25px;
   padding-top: 10px;
 }
 
 .main-booking-right p {
   text-align: left;
   padding: 10px 20px;
+  font-size: 17.5px;
+}
+
+.main-booking-right input[type="text"] {
+  color: var(--pink);
 }
 
 .personal-info {
@@ -763,20 +788,10 @@ a:link {
   flex-wrap: wrap;
 }
 
-input[type="text"] {
-  width: 25em;
-  padding: 12px;
-  border: none;
-  border-bottom: 1px solid var(--pink);
-  border-radius: 0px;
-  box-sizing: border-box;
-  color: var(--darkPurple);
-}
-
 .personal-info p {
   padding: 0px;
   padding-top: 20px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 textarea {
@@ -813,7 +828,7 @@ textarea {
 .main2-booking-box-middle {
   margin: 40px;
   width: 340px;
-  height: 800px;
+  height: auto;
   border: 2px solid rgba(206, 194, 209, 0.7);
   background-color: rgba(206, 194, 209, 0.7);
 }
@@ -845,7 +860,7 @@ textarea {
 
 .booking-event-info h3,
 .booking-event-info p {
-  color: rgba(31, 9, 36, 0.8);
+  color: rgba(31, 9, 36, 1);
 }
 
 .main2-booking select {
@@ -901,7 +916,7 @@ textarea {
 }
 
 .main2-booking .personal-info label {
-  color: rgba(31, 9, 36, 0.7);
+  color: rgba(31, 9, 36, 0.9);
 }
 
 .main1-booking .personal-info label,
@@ -922,11 +937,11 @@ textarea {
   font-size: 2.8em;
 }
 
-.main3 #right-button {
+#right-button {
   padding-left: 20px;
 }
 
-.main3 #left-button {
+#left-button {
   padding-right: 20px;
 }
 
@@ -957,6 +972,32 @@ textarea {
 
 .main3-exhibitions h3 {
   font-size: 30px;
+}
+
+.form-error,
+#contact-name-error {
+  width: 100%;
+  color: var(--yellow);
+  font-size: 14px;
+  text-align: center;
+  display: none;
+  margin: 4px 30px 0px 30px;
+}
+
+.send-succsess {
+  border: 1px solid var(--green);
+  width: 330px;
+  border-radius: 6px;
+  display: none;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.send-succsess-event { 
+  width: 280px;
+  font-weight: 600;
+  margin: 0 auto;
+  font-size: 15px;
 }
 
 /* RESPONSIVE EXPLORE and GET INVOLVED */
@@ -1054,6 +1095,15 @@ textarea {
     width: 25em;
     text-align: center;
     margin: 0px 20px 90px 20px;
+  }
+  .main-booking-right #right-button {
+    padding-left: 0px;
+    font-size: 1.8em;
+  }
+  
+  .main-booking-right #left-button {
+    padding-right: 00px;
+    font-size: 1.8em;
   }
 
 
@@ -1188,9 +1238,13 @@ textarea {
     margin-right: 20px;
   }
 
+  .main-booking-right p {
+    font-size: 15px;
+  }
+
   /* Responsive main3 exhibitions */
 
-.main3-exhibitions img {
+  .main3-exhibitions img {
     width: 15em;
   }
 
@@ -1298,7 +1352,7 @@ textarea {
   }
 }
 
-@media (max-width: 1388px) {
+@media (max-width: 1390px) {
   .main-booking-left {
     order: 2;
   }
@@ -1407,4 +1461,17 @@ textarea {
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
+}
+
+
+ul .active a {
+  color: var(--yellow);
+}
+
+#select-event {
+  font-weight: 600;
+  text-align: left;
+  padding-left: 20px;
+  color: rgba(31, 9, 36, 0.9);
+  margin-top: 10px;
 }

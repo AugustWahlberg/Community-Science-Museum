@@ -35,7 +35,7 @@
       <li><a href="explore.html">Explore</a></li>
       <li><a href="exhibitions.html">Exhibitions</a></li>
       <li><a href="get-involved.html">Get Involved</a></li>
-      <li><a href="booking.html"><b>Booking</b></a></li>
+      <li class="active"><a href="booking.html"><b>Booking</b></a></li>
     </ul>
   </div>
   </header>
@@ -85,17 +85,23 @@
                   <div class="personal-info">
                     <label for="fullname"> Full Name</label>
                     <input type="text" id="fullname-1" name="fullname" placeholder="John Doe">
+                    <div class="form-error" id="contact-name-error">Please enter your name</div>
                     <label for="email"> Email</label>
                     <input type="text" id="email-1" name="email" placeholder="john@example.com">
+                    <div class="form-error" id="contact-email-error">Please enter a valid email address</div>
                     <p>Please write which exhibition you want to book, as well as date, time and how many you want to book for </p>
-                    <form>
-                      <textarea>Write to us...</textarea>
-                    </form>
+                      <textarea id="contact-message"></textarea>
+                      <div class="form-error" id="contact-message-error">Please enter a subject of a message of a minimum of 40 characters</div>
                 </div>
-                <button class="main2-btn">Send</button>
+                <form id="book-tour-form">
+                <button class="main2-btn" id="send">Send</button>
+              </form>
+              <div class="send-succsess"><i class="fa-3x fa-solid fa-square-check"> </i> <p> Thank you for booking our exhibition, you will receive a confirmation on email within 15 minutes</p>
               </div>
            </div>
          </section>
+
+         <!-- Start of event booking-->
 
          <section id="event-booking">
            <div class="main2-booking">
@@ -109,16 +115,15 @@
                 from the Massachusetts Institute of Technology will be delivering 
                 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
               </div>
-              <label for="select-date-1"></label>
+              <label for="select-date-1" id="select-event">Select date</label>
               <select name="select" id="select-date-1">
                 <option value="Sat-21">Friday 14/1/22 - 18:00 - 20:00</option>
                 <option value="fri-5">Saturday 15/1/22 - 11:00 - 13:00</option>
                 <option value="fri-5">Sunday 16/1/22 - 11:00 - 13:00</option>
               </select>
 
-              <label for="select-qnt-1"></label>
+              <label for="select-qnt-1" id="select-event">Ticket Quantity</label>
               <select name="select" id="select-qnt-1">
-                <option value="Sat-21">Ticket Quantity</option>
                 <option value="fri-5">1</option>
                 <option value="fri-5">2</option>
                 <option value="fri-5">3</option>
@@ -129,11 +134,19 @@
               <div class="personal-info">
                 <label for="fullname"> Full Name</label>
                 <input type="text" id="fullname-2" name="fullname" placeholder="John Doe">
+                <div class="form-error" id="contact-name-error-event">Please enter your name</div>
                 <label for="email"> Email</label>
-                <input type="text" id="email-2" name="email" placeholder="john@example.com">
+                <input type="text" id="email-1-event" name="email" placeholder="john@example.com">
+                <div class="form-error" id="contact-email-error-event">Please enter a valid email address</div>
               </div>
-              <button class="main2-btn">Book now</button> 
+              <form id="book-event-1" id="book-event-1-btn">
+              <button class="main2-btn" id="book-event-2-btn" type="button" >Book now</button>
+            </form>
+            <div class="send-succsess-event" id="send-succsess-event"><i class="fa-3x fa-solid fa-square-check"> </i> <p> You have successfully booked an event, you will receive further information within 24 hours on email</p>
+            </div>
             </div>  
+             
+            <!--
 
             <div class="main2-booking-box-middle">
               <img src="/images/event-2.jpg" alt="Image event 2">
@@ -146,16 +159,15 @@
                   of the elements as we harness them.</p>
               </div>
               
-              <label for="select-date-2"></label>
+              <label for="select-date-2" id="select-event">Select date</label>
               <select name="select" id="select-date-2">
                 <option value="Sat-21">Friday 28/1/22 - 19:00 - 21:00</option>
                 <option value="fri-5">Saturday 29/1/22 - 11:00 - 13:00</option>
                 <option value="fri-5">Sunday 30/1/22 - 11:00 - 13:00</option>
               </select>
 
-              <label for="select-qnt-2"></label>
+              <label for="select-qnt-2" id="select-event">Ticket Quantity</label>
               <select name="select" id="select-qnt-2">
-                <option value="Sat-21">Ticket Quantity</option>
                 <option value="fri-5">1</option>
                 <option value="fri-5">2</option>
                 <option value="fri-5">3</option>
@@ -165,11 +177,17 @@
               </select>
               <div class="personal-info">
                 <label for="fullname"> Full Name</label>
-                <input type="text" id="fullname-3" name="fullname" placeholder="John Doe">
+                <input type="text" id="fullname-2" name="fullname" placeholder="John Doe">
+                <div class="form-error" id="contact-name-error">Please enter your name</div>
                 <label for="email"> Email</label>
-                <input type="text" id="email-3" name="email" placeholder="john@example.com">
+                <input type="text" id="email-1-event" name="email" placeholder="john@example.com">
+                <div class="form-error" id="contact-email-error-event">Please enter a valid email address</div>
               </div>
-               <button class="main2-btn">Book now</button>
+              <form id="book-event-2">
+               <button class="main2-btn" id="book-event-2-btn" type="button">Book now</button>
+              </form>
+              <div class="send-succsess-event"><i class="fa-3x fa-solid fa-square-check"> </i> <p> Thank you for booking our exhibition, you will receive a confirmation on email within 15 minutes</p>
+              </div>
             </div>  
 
             <div class="main2-booking-box">
@@ -183,16 +201,15 @@
                  and get ready to rough it as we go exploring the wonders of science.</p>
               </div>
               
-              <label for="select-date-3"></label>
+              <label for="select-date-3" id="select-event">Select date</label>
               <select name="select" id="select-date-3">
                 <option value="Sat-21">Saturday 5/2/22</option>
                 <option value="fri-5">Saturday 26/2/22 </option>
                 <option value="fri-5">Saturday 12/3/22</option>
               </select>
 
-              <label for="select-qnt-3"></label>
+              <label for="select-qnt-2" id="select-event">Ticket Quantity</label>
               <select name="select" id="select-qnt-3">
-                <option value="Sat-21">Ticket Quantity</option>
                 <option value="fri-5">1</option>
                 <option value="fri-5">2</option>
                 <option value="fri-5">3</option>
@@ -203,13 +220,19 @@
 
               <div class="personal-info">
                 <label for="fullname"> Full Name</label>
-                <input type="text" id="fullname" name="fullname" placeholder="John Doe">
+                <input type="text" id="fullname-2" name="fullname" placeholder="John Doe">
+                <div class="form-error" id="contact-name-error">Please enter your name</div>
                 <label for="email"> Email</label>
-                <input type="text" id="email" name="email" placeholder="john@example.com">
+                <input type="text" id="email-1-event" name="email" placeholder="john@example.com">
+                <div class="form-error" id="contact-email-error">Please enter a valid email address</div>
               </div>
-             <button class="main2-btn">Book now</button> 
+              <form id="book-event-3">
+             <button class="main2-btn" id="book-event-3-btn" type="button">Book now</button>
+            </form>
+            <div class="send-succsess-event"><i class="fa-3x fa-solid fa-square-check"> </i> <p> Thank you for booking our exhibition, you will receive a confirmation on email within 15 minutes</p>
+            </div>
             </div>  
-          </div> 
+          </div> -->
          </section>
   </main>
   <footer>
