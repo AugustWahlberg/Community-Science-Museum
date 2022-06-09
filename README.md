@@ -1,5 +1,5 @@
 ### Community Science Museum
-![This is an image](![printscreen-csm](https://user-images.githubusercontent.com/91577070/172937244-ba91158f-8ce9-4b43-833b-24fcf46c6ed0.png)
+(![printscreen-csm](https://user-images.githubusercontent.com/91577070/172937244-ba91158f-8ce9-4b43-833b-24fcf46c6ed0.png)
 
 A simple overview of the use/purpose of the project.
 
