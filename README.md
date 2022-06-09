@@ -8,13 +8,13 @@ This is my semester project for my first semester at Noroff. In this project, I 
 
 ## Brief
 
-* **Interpreation of task:**
+* **Interpreation of task:**  
 To create a properly functioning, responsive website for the fictive customer Community Science Drammen, by only using HTML and CSS. The website should appeal to the target audience and should contain a minimum of 4 pages.
 
-* **Target group:**
+* **Target group:**  
 The target group is primary and middle school children in the age range of 7 - 15 years, and families with young children. The target group is inquisitive and intelligent. 
 
-* **Message/Achieved action:**
+* **Message/Achieved action:**  
 -The website should be exciting, appealing, and informative  
 -The website should be user-friendly and easy to navigate on all devices  
 -The website should encourage the viewers to visit the museum  
