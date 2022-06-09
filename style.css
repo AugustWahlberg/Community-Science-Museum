@@ -148,27 +148,6 @@ main {
   top: 0;
 }
 
-input[type="text"] {
-  width: 25em;
-  padding: 12px;
-  border: none;
-  border-bottom: 1px solid var(--pink);
-  border-radius: 0px;
-  box-sizing: border-box;
-  color: var(--darkPurple);
-  font-size: 18px;
-}
-
-label {
-  font-size: 18px;
-  padding-top: 5px;
-}
-
-
-option, select{
-  font-size: 16px;
-}
-
 
 /* change the menu in mobile view */
 
@@ -565,13 +544,57 @@ a:link {
   background-color: var(--green);
 }
 
+#right-button,
+#left-button {
+  opacity: 0.6;
+  font-size: 2.3em;
+}
+
+.main3 #right-button,
+.main3 #left-button {
+  font-size: 2.8em;
+}
+
+#right-button {
+  padding-left: 20px;
+}
+
+#left-button {
+  padding-right: 20px;
+}
+
+#right-button:hover,
+#left-button:hover {
+  opacity: 1;
+}
+
+.main3 {
+  padding: 40px;
+  max-width: 90vw;
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.main3-exhibitions {
+  text-align: center;
+  width: 30em;
+  margin: 0px 8em 0em 8em;
+}
+
+.main3-exhibitions img {
+  width: 22em;
+  max-height: 700px;
+  padding-top: 20px;
+}
+
+.main3-exhibitions h3 {
+  font-size: 30px;
+}
+
+
 /* End styling main2 */
 
 /* Start styling main3 */
-
-.main3 img {
-  width: 250px;
-}
 
 .main3 h2 {
   font-weight: 900;
@@ -581,12 +604,6 @@ a:link {
   width: 100vw;
   margin-bottom: 40px;
 }
-
-.main3 h3 {
-  font-weight: bolder;
-  font-size: 28px;
-}
-
 
 /* END styling home page */
 
@@ -634,11 +651,6 @@ a:link {
 .main-explore-left {
   width: 40rem;
   margin: 80px;
-}
-
-.main-explore-left p {
-  padding-top: 20px;
-  font-size: 18.5px;
 }
 
 .main-explore-left img {
@@ -923,55 +935,25 @@ textarea {
 .main2-booking .personal-info label {
   font-weight: 600;
 }
-
-/* End styling Booking */
-
-#right-button,
-#left-button {
-  opacity: 0.6;
-  font-size: 2.3em;
+input[type="text"] {
+  width: 25em;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid var(--pink);
+  border-radius: 0px;
+  box-sizing: border-box;
+  color: var(--darkPurple);
+  font-size: 18px;
 }
 
-.main3 #right-button,
-.main3 #left-button {
-  font-size: 2.8em;
+label {
+  font-size: 18px;
+  padding-top: 5px;
 }
 
-#right-button {
-  padding-left: 20px;
-}
-
-#left-button {
-  padding-right: 20px;
-}
-
-#right-button:hover,
-#left-button:hover {
-  opacity: 1;
-}
-
-
-.main3 {
-  padding: 40px;
-  max-width: 90vw;
-  width: 1200px;
-  margin: 40px auto;
-}
-
-.main3-exhibitions {
-  text-align: center;
-  width: 30em;
-  margin: 0px 8em 0em 8em;
-}
-
-.main3-exhibitions img {
-  width: 22em;
-  max-height: 700px;
-  padding-top: 20px;
-}
-
-.main3-exhibitions h3 {
-  font-size: 30px;
+option,
+select {
+  font-size: 16px;
 }
 
 .form-error,
@@ -993,7 +975,7 @@ textarea {
   margin-top: 20px;
 }
 
-.send-succsess-event { 
+.send-succsess-event {
   width: 290px;
   font-weight: 400;
   margin: 0 auto;
@@ -1002,6 +984,8 @@ textarea {
   padding-bottom: 10px;
   text-align: left;
 }
+
+/* End styling Booking */
 
 /* RESPONSIVE EXPLORE and GET INVOLVED */
 
@@ -1099,11 +1083,12 @@ textarea {
     text-align: center;
     margin: 0px 20px 90px 20px;
   }
+
   .main-booking-right #right-button {
     padding-left: 0px;
     font-size: 1.8em;
   }
-  
+
   .main-booking-right #left-button {
     padding-right: 00px;
     font-size: 1.8em;
@@ -1259,12 +1244,9 @@ textarea {
   .main3 #left-button {
     font-size: 2em;
   }
-
-
 }
 
 @media (min-width: 880px) {
-
   .main-explore h1,
   .main-exhibitions h1 {
     display: none;
@@ -1324,7 +1306,6 @@ textarea {
   .main1-right {
     width: 100vw;
   }
-
 }
 
 /* Responsive main3 */
@@ -1364,7 +1345,6 @@ textarea {
     margin-bottom: 60px;
   }
 }
-
 
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
@@ -1450,7 +1430,6 @@ textarea {
   font-size: 3em;
 }
 
-
 .fa,
 .fas,
 .far,
@@ -1471,7 +1450,12 @@ ul .active a {
   color: var(--yellow);
 }
 
-#select-event-qnt-1, #select-event-date-1, #select-event-qnt-2, #select-event-date-2, #select-event-qnt-3, #select-event-date-3 {
+#select-event-qnt-1,
+#select-event-date-1,
+#select-event-qnt-2,
+#select-event-date-2,
+#select-event-qnt-3,
+#select-event-date-3 {
   font-weight: 600;
   text-align: left;
   padding-left: 20px;
