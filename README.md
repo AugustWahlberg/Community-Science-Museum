@@ -1,14 +1,15 @@
 # Community Science Museum
 ![printscreen-csm](https://user-images.githubusercontent.com/91577070/172937244-ba91158f-8ce9-4b43-833b-24fcf46c6ed0.png)
 
-Website for local science museum
+Website for local science museum - Semester project 1, Noroff 2021
 
 ## Description
-In this project, I have created a website I have made website for the fictive customer Community Science Museum. The website is made to appeal to both kids (7-15 years) and families with young children. 
+This is my semester project for my first semester at Noroff. In this project, I have created a website for the fictive costumer Community Science Museum. The website is made to appeal to both kids (7-15 years) and families with young children. All illustrations and the logo are self made. 
 
-You can add some bullet points if you'd like to:
+## Brief
 
-* item 1
+* Interpreation of task
+
 * item 2
 * item 3
 ## Built With
