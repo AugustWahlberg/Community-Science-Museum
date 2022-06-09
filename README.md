@@ -8,9 +8,9 @@ Add a more detailed description of what your project entails and set out to do.
 
 You can add some bullet points if you'd like to:
 
-List item 1
-List item 2
-List item 3
+* item 1
+* item 2
+* item 3
 ## Built With
 React.js
 Bootstrap
