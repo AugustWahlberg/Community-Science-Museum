@@ -1,4 +1,4 @@
-Your project title
+Community Science Museum
 image
 
 A simple overview of the use/purpose of the project.
