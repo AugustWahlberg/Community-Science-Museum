@@ -8,7 +8,7 @@ This is my semester project for my first semester at Noroff. In this project, I 
 
 ## Brief
 
-* **Interpreation of task**
+* **Interpreation of task:**
 To create a properly functioning, responsive website for the fictive customer Community Science Drammen, by only using HTML and CSS. The website should appeal to the target audience and should contain a minimum of 4 pages.
 
 * item 2
