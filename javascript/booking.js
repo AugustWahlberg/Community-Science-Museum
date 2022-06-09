@@ -158,16 +158,15 @@ const sendSuccsessEvent1 = document.querySelector(
 );
 let verdi1 = true;
 
-function validateFormEvent(event) {
+function validateFormEvent1(event) {
   event.preventDefault();
   verdi1 = true;
 
   if (
-    checkLength(inputNameEvent1.value, 5) === true
+    checkLength1(inputNameEvent1.value, 5) === true
   ) {
     contactNameErrorEvent1.style.display = "none";
     verdi1 = true;
-    console.log(verdi1);
   } else {
     contactNameErrorEvent1.style.display =
       "block";
@@ -175,7 +174,7 @@ function validateFormEvent(event) {
   }
 
   if (
-    validateEmailEvent(
+    validateEmailEvent1(
       contactEmailEvent1.value
     ) === true
   ) {
@@ -187,10 +186,10 @@ function validateFormEvent(event) {
       "block";
     verdi1 = false;
   }
-  sendInquiryEvent();
+  sendInquiryEvent1();
 }
 
-function validateEmailEvent(email) {
+function validateEmailEvent1(email) {
   const regEx = /\S+@\S+\.\S+/;
   const patternMatches = regEx.test(email);
   return patternMatches;
@@ -198,10 +197,10 @@ function validateEmailEvent(email) {
 
 eventForm1.addEventListener(
   "click",
-  validateFormEvent
+  validateFormEvent1
 );
 
-function checkLength(value, len) {
+function checkLength1(value, len) {
   if (value.trim().length > len) {
     return true;
   } else {
@@ -211,10 +210,186 @@ function checkLength(value, len) {
 
 sendSuccsessEvent1.addEventListener(
   "click",
-  sendInquiryEvent
+  sendInquiryEvent1
 );
 
-function sendInquiryEvent() {
+function sendInquiryEvent1() {
   if (verdi1 == true)
     sendSuccsessEvent1.style.display = "block";
+}
+
+
+
+
+/*Validation book event 2*/
+
+const eventForm2 = document.getElementById(
+  "book-event-2"
+);
+const inputNameEvent2 = document.getElementById(
+  "fullname-event-2"
+);
+
+const contactNameErrorEvent2 =
+  document.querySelector(
+    "#contact-name-error-event-2"
+  );
+const contactEmailEvent2 = document.querySelector(
+  "#email-event-2"
+);
+const contactEmailErrorEvent2 =
+  document.querySelector(
+    "#contact-email-error-event-2"
+  );
+
+const sendSuccsessEvent2 = document.querySelector(
+  "#send-succsess-event-2"
+);
+let verdi2 = true;
+
+function validateFormEvent2(event) {
+  event.preventDefault();
+  verdi2 = true;
+
+  if (
+    checkLength2(inputNameEvent2.value, 5) === true
+  ) {
+    contactNameErrorEvent2.style.display = "none";
+    verdi2 = true;
+  } else {
+    contactNameErrorEvent2.style.display =
+      "block";
+    verdi2 = false;
+  }
+
+  if (
+    validateEmailEvent2(
+      contactEmailEvent2.value
+    ) === true
+  ) {
+    contactEmailErrorEvent2.style.display =
+      "none";
+    verdi2 = true;
+  } else {
+    contactEmailErrorEvent2.style.display =
+      "block";
+    verdi2 = false;
+  }
+  sendInquiryEvent2();
+}
+
+function validateEmailEvent2(email) {
+  const regEx = /\S+@\S+\.\S+/;
+  const patternMatches = regEx.test(email);
+  return patternMatches;
+}
+
+eventForm2.addEventListener(
+  "click",
+  validateFormEvent2
+);
+
+function checkLength2(value, len) {
+  if (value.trim().length > len) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+sendSuccsessEvent2.addEventListener(
+  "click",
+  sendInquiryEvent2
+);
+
+function sendInquiryEvent2() {
+  if (verdi2 == true)
+    sendSuccsessEvent2.style.display = "block";
+}
+
+
+/*Validation book event 3*/
+
+const eventForm3 = document.getElementById(
+  "book-event-3"
+);
+const inputNameEvent3 = document.getElementById(
+  "fullname-event-3"
+);
+
+const contactNameErrorEvent3 =
+  document.querySelector(
+    "#contact-name-error-event-3"
+  );
+const contactEmailEvent3 = document.querySelector(
+  "#email-event-3"
+);
+const contactEmailErrorEvent3 =
+  document.querySelector(
+    "#contact-email-error-event-3"
+  );
+
+const sendSuccsessEvent3 = document.querySelector(
+  "#send-succsess-event-3"
+);
+let verdi3 = true;
+
+function validateFormEvent3(event) {
+  event.preventDefault();
+  verdi3 = true;
+
+  if (
+    checkLength3(inputNameEvent3.value, 5) === true
+  ) {
+    contactNameErrorEvent3.style.display = "none";
+    verdi3 = true;
+  } else {
+    contactNameErrorEvent3.style.display =
+      "block";
+    verdi3 = false;
+  }
+
+  if (
+    validateEmailEvent3(
+      contactEmailEvent3.value
+    ) === true
+  ) {
+    contactEmailErrorEvent3.style.display =
+      "none";
+    verdi3 = true;
+  } else {
+    contactEmailErrorEvent3.style.display =
+      "block";
+    verdi3 = false;
+  }
+  sendInquiryEvent3();
+}
+
+function validateEmailEvent3(email) {
+  const regEx = /\S+@\S+\.\S+/;
+  const patternMatches = regEx.test(email);
+  return patternMatches;
+}
+
+eventForm3.addEventListener(
+  "click",
+  validateFormEvent3
+);
+
+function checkLength3(value, len) {
+  if (value.trim().length > len) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+sendSuccsessEvent3.addEventListener(
+  "click",
+  sendInquiryEvent3
+);
+
+function sendInquiryEvent3() {
+  if (verdi3 == true)
+    sendSuccsessEvent3.style.display = "block";
 }

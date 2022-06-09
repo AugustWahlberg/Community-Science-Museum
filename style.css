@@ -994,11 +994,13 @@ textarea {
 }
 
 .send-succsess-event { 
-  width: 280px;
-  font-weight: 600;
+  width: 290px;
+  font-weight: 400;
   margin: 0 auto;
   font-size: 15px;
   display: none;
+  padding-bottom: 10px;
+  text-align: left;
 }
 
 /* RESPONSIVE EXPLORE and GET INVOLVED */
