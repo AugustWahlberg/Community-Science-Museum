@@ -30,11 +30,8 @@ The target group is primary and middle school children in the age range of 7 - 1
 * JavaScript
 
 ## Contributing
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate CONTRIBUTING.md and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+I appreciate any suggested improvements you may way, feel free to open a pull request if you want to get involved in this project.
 
 ## Contact
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-My Twitter page
-
-My LinkedIn page
+My LinkedIn page: https://www.linkedin.com/in/augwahlberg/
+My email: aug.wahlberg@gmail.com
