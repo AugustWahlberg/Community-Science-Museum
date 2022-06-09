@@ -1,5 +1,5 @@
 ### Community Science Museum
-![This is an image](https://ibb.co/bHh35Mf)
+![This is an image] (https://ibb.co/bHh35Mf)
 
 A simple overview of the use/purpose of the project.
 
