@@ -219,8 +219,6 @@ function sendInquiryEvent1() {
 }
 
 
-
-
 /*Validation book event 2*/
 
 const eventForm2 = document.getElementById(
