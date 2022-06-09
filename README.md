@@ -19,6 +19,11 @@ The target group is primary and middle school children in the age range of 7 - 1
 -The website should be user-friendly and easy to navigate on all devices  
 -The website should encourage the viewers to visit the museum  
 
+**Website requirements:**  
+-The code should be written in structured and understandable way  
+-The website should download fast
+-The website should follow the WCAG-standards
+
 ## Built With
 * HTML
 * CSS
