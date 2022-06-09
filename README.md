@@ -1,4 +1,4 @@
-Community Science Museum
+### Community Science Museum
 image
 
 A simple overview of the use/purpose of the project.
